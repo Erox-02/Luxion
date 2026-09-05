@@ -13,3 +13,22 @@ So to be frank it took me hours to make the decisions for the h bridge driver , 
 , i chose bl5612 for the h bridge driver , looks good enough but for the buck , i chosed ams1117 first then came to know its really inefficient and a 1s battery cant reliably suppy for it ,so i went to TPS63020DSJR  but soon i came to realize why it wasnt a good choice for me . THe wiring of it is really complex thts all still i somehow did it , now the next for tomorrow , i need to make the rails for ttl and start the pcb maybe? Also today i connected the mpu6500 ,it might look in complete but i intend to solder the breakout directly on my pcb(ah cant find bare cheaper than the breakout) so only 4 pins(gnd vcc scl and sda) are good enough no need for more hassle .
 
 **Total time spent: 4 hours**
+
+# Sept 5 : 
+
+I already have the probs i need to solve but i made a new decision , i will just wire the d+ and d- on io20 and 19 , so no cp2102 as the esp already have the required pins , why waste money? 
+
+But now i have mapped d+ and d- to gpio20 and 19 so now i need to remount the buzzer also the mpu , i think if i am rewiring , why not spi thts cleaner than i2c for a flight controller , so now i need conn_01x10 instead . Uf finally done now i need to add some good looking caps and then done the schematic , wait i have already spent 3hrs and basically did nothing but read datasheets and clculated the values for caps and wired some small things , ah! .
+
+![schematic](assets/sch_v1.png)
+
+Now when i went to robu for the caps , i saw those cheap as hell but then comes 10rs is min for a single comp , i really need to order whole 25 caps just to fullfill their condition of 10rs minimum , anyways bulk costs way cheaper , when i tried to find alts , i saw each costing 3rs while on bulk 
+the same comp(from diff company) costs 0.40rs each. For the first time i am ordering more things to save money lol .
+
+![robu](assets/robu.png)
+
+Finally done the caps arc Imma gonna die if i sill continue .
+
+![schematic](assets/sch_v2.png)
+
+**Total time spent: 6 hours**
