@@ -2,6 +2,13 @@
 
 A custom drone flight controller designed from scratch.
 
+## looks
+---
+![pcb](assets/pcb_v6.png) 
+---
+![3d_mod](assets/3d_mod.png)
+---
+
 ## Hardware
 
 - ESP32-S3-WROOM-1U-N16R8
@@ -17,7 +24,7 @@ A custom drone flight controller designed from scratch.
 
 ## status
 
-- [x] Schematic
+- [x] schematic
 - [x] layout & routing
 - [x] frame
 - [ ] PCB fab
