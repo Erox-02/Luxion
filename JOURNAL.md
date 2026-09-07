@@ -103,3 +103,13 @@ look like this is all i can do for today . Also looks like the designing part is
 ![Final](assets/3d_mod.png)
 
 **Total time spent: 11 hours**
+
+# Sept 6 : cost estimation + readme fix
+
+Today i didnt do much things just estimated the cost of pcb manufacturing and 3d printing i tried diff platforms like robu and jlcpcb also lion circuits but for pcb and 3d both jlcpcb makes it cheaper so why not , also with a 10$ coupon the shipping is free .
+
+![pcb order](assets/jlcpcb.png)
+
+After that i tried a lot to find robu coupons too but i was unable to find so i basically gave up and went to readme , patched and thts all 
+
+**Total time spent: 2 hours**
