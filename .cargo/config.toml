@@ -1,0 +1,11 @@
+[target.xtensa-esp32s3-espidf]
+runner = "espflash flash --monitor"
+
+[build]
+target = "xtensa-esp32s3-espidf"
+
+[unstable]
+build-std = ["core", "alloc"]
+
+[env]
+ESP_HAL_SYSTICK_TIMER = "1"
