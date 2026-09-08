@@ -113,3 +113,13 @@ Today i didnt do much things just estimated the cost of pcb manufacturing and 3d
 After that i tried a lot to find robu coupons too but i was unable to find so i basically gave up and went to readme , patched and thts all 
 
 **Total time spent: 2 hours**
+
+# Sept 7 : Wiring added to readme + bug found
+
+today my work is minimal as i have a small exam , i just added the wiring portion to readme and found a bug ,
+after reading the esp datasheet i came to know there is a strapping problem for gpio46 in my gerber ,
+i mean when download mode with the usb , i need to pull tht down .
+
+![strapping ladout](assets/strapping_err.png)
+
+**Total time spent: 1 hours**

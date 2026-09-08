@@ -34,6 +34,26 @@ also pics here :
 
 ![schematic](assets/sch_v4.png)
 
+### Wiring
+
+io4 -> bl1 ina(cw)
+io5 -> bl1 inb(cw)
+io6 -> bl2 ina(ccw)
+io7 -> bl2 inb(ccw)
+io15 -> bl3 ina(ccw)
+io16 -> bl3 inb(ccw)
+io17 -> bl4 ina (cw)
+io18 -> nl4 inb (cw)
+io19 -> d-
+io20 -> d+
+io46 -> int(mpu)
+io10 -> ncs
+io11 -> sda
+io12 -> scl
+io13 -> ado
+
+done thts for the mpu 
+
 ## Firmware
 
 I intend to use a firmware written in rust no std but it is still on the way.
