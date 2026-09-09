@@ -13,14 +13,14 @@ pub struct MotorCtrl<C1, C2 ,C3 ,C4, C5, C6 ,C7, C8> {
 
 impl<C1, C2, C3, C4, C5, C6, C7, C8> MotorCtrl<C1, C2, C3, C4, C5, C6, C7, C8>
 where
-    C1: Chanel<u16>,
-    C2: Chanel<u16>,
-    C3: Chanel<u16>,
-    C4: Chanel<u16>,
-    C5: Chanel<u16>,
-    C6: Chanel<u16>,
-    C7: Chanel<u16>,
-    C8: Chanel<u16>,
+    C1: Channel<u16>,
+    C2: Channel<u16>,
+    C3: Chanenl<u16>,
+    C4: Channel<u16>,
+    C5: Channel<u16>,
+    C6: Channel<u16>,
+    C7: Channel<u16>,
+    C8: Channel<u16>,
 {
     pub fn new(
         ch1: C1, ch2: C2, ch3: C3, ch4: C4,

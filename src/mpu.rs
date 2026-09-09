@@ -1,8 +1,4 @@
-use core::fmt;
 use embedded_hal::spi::SpiBus;
-use esp32s3_hal::spi::master::Spi;
-use esp32s3_hal::gpio::{Output, PushPull};
-use embedded_hal::spi::SpiDevice;
 
 pub const WHO_AM_I: u8 = 0x75;
 pub const PWR_MGMT_1: u8 = 0x6B;
@@ -26,7 +22,7 @@ pub const TEMP_OUT_L: u8 = 0x42; //straight up cp and pasted the resisters lol
 pub enum Mpuerr {
     Spierr,
     WrnDev(u8),
-    Unready,
+    Unready, //the useless guy 
 }
 
 pub struct Mpu6500<SPI, CS> {
@@ -51,15 +47,16 @@ where
     CS: embedded_hal::digital::OutputPin,
 {  
     pub fn new(mut spi: SPI, mut cs: CS) -> Result<Self, Mpuerr> {
-        MPU6500 {spi, cs}.write_reg(PWR_MGMT_1, 0x80)?;
+        let mut mpu = Mpu6500 {spi, cs};
+        mpu.write_reg(PWR_MGMT_1, 0x80)?;
         esp32s3_hal::delay::Ets::delay_ms(100);
-        MPU6500 {spi, cs}.write_reg(PWR_MGMT_1, 0x01)?;
+        mpu.write_reg(PWR_MGMT_1, 0x01)?;
         esp32s3_hal::delay::Ets::delay_ms(10);
-        MPU6500 {spi, cs}.write_reg(0x1B, 0x00)?;
-        MPU6500 {spi, cs}.write_reg(0x1C, 0x00)?;
+        mpu.write_reg(0x1B, 0x00)?;
+        mpu.write_reg(0x1C, 0x00)?;
         let who_am_i = mpu.read_reg(WHO_AM_I)?;
         if who_am_i != 0x70 && who_am_i != 0x73 {
-            return Err(Mpuerr::WrongDevice(who_am_i));
+            return Err(Mpuerr::WrnDev(who_am_i));
         }
         
         Ok(mpu)

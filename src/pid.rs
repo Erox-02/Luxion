@@ -34,7 +34,7 @@ impl Pidctrl {
     }
     
     pub fn calculate(&mut self, setpoint: f32, measurement: f32) -> f32 {
-        let dt = 1.0; 
+        let dt = 0.002; 
         
         
         let error = setpoint - measurement;
