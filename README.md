@@ -43,7 +43,7 @@ io7 -> bl2 inb(ccw)
 io15 -> bl3 ina(ccw)
 io16 -> bl3 inb(ccw)
 io17 -> bl4 ina (cw)
-io18 -> nl4 inb (cw)
+io18 -> bl4 inb (cw)
 io19 -> d-
 io20 -> d+
 io46 -> int(mpu)
