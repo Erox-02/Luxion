@@ -50,13 +50,35 @@ io46 -> int(mpu)
 io10 -> ncs
 io11 -> sda
 io12 -> scl
-io13 -> ado
+io13 -> ad0
 
 done thts for the mpu 
 
 ## Firmware
 
-I intend to use a firmware written in rust no std but it is still on the way.
+> still on the way but lemme add the progress here
+
+I have written likely 60% of the firmware already before getting approved or building the physical drone .
+
+Current stack have :
+[erox@archbtw luxion]$ tree src 
+src
+├── filter.rs
+├── main.rs
+├── motor.rs
+├── mpu.rs
+└── pid.rs
+
+1 directory, 5 files
+
+the mpu.rs is a custom driver(really basic) for the mpu6500 , the filte* take mpu's data(gyro and acc) then converts tht into yaw roll and pitch , the moto* haved ldec and controlls the motors state , the pid is just pid controller nothing more , and the main.rs integrates them all and runs them when needed either in loop or once .
+
+### Whats remainin?
+
+- esp now impl
+- build.rs
+- proper pid vals and calibration
+- bl5612 calibration 
 
 ## How to assemble
 
