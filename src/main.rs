@@ -1,18 +1,20 @@
 #![no_std]
 #![no_main]
 
-use esp32s3_hal::{
-    gpio::{
-        Gpio4, Gpio5, Gpio6, Gpio7, Gpio10, Gpio11, Gpio12, Gpio13,
-        Gpio15, Gpio16, Gpio17, Gpio18, Gpio46,
-        Input, Output, PushPull, IO,
+use esp_hal::{
+    clock::CpuClock,
+    gpio::{Input, Output},
+    ledc::{
+        channel::{self, ChannelIFace},
+        timer::{self, TimerIFace},
+        LSGlobalClkSource, Ledc, LowSpeed,
     },
-    clock::ClockControl,
-    pac::Peripherals,
-    prelude::*,
-    spi::{master::{Spi, SpiMode}, SpiDataMode},
-    ledc::{channel, timer, Ledc, Resolution},
-    syscon::SystemConfig,
+    main,
+    spi::{
+        master::{Config as SpiConfig, Spi},
+        Mode,
+    },
+    time::Rate,
 };
 
 use esp_println::println;
@@ -28,69 +30,60 @@ use motor::MotorCtrl;
 use filter::ComFil;
 use pid::Pidctrl;
 
-type M1InA = Gpio4<Output<PushPull>>;
-type M1InB = Gpio5<Output<PushPull>>;
-type M2InA = Gpio6<Output<PushPull>>;
-type M2InB = Gpio7<Output<PushPull>>;
-type M3InA = Gpio15<Output<PushPull>>;
-type M3InB = Gpio16<Output<PushPull>>;
-type M4InA = Gpio17<Output<PushPull>>;
-type M4InB = Gpio18<Output<PushPull>>;
-type Cs = Gpio10<Output<PushPull>>;
-type Sck = Gpio12<Output<PushPull>>;
-type Mosi = Gpio11<Output<PushPull>>;
-type Miso = Gpio13<Input<PushPull>>;
-type Int = Gpio46<Input<PushPull>>;
-
-#[entry]
+#[main]
 fn main() -> ! {
-    let peripherals = Peripherals::take().unwrap();
-    let systm = SystemConfig::new(peripherals.SYSTEM);
-    let clocks = ClockControl::max(systm.clock_control).execute();
-    let io = IO::new(peripherals.GPIO, peripherals.IO_MUX);
-    let pins = io.pins;
+    let config = esp_hal::Config::default().with_cpu_clock(CpuClock::max());
+    let peripherals = esp_hal::init(config);
 
-    let m1_ina = pins.gpio4.into_push_pull_output();
-    let m1_inb = pins.gpio5.into_push_pull_output();
-    let m2_ina = pins.gpio6.into_push_pull_output();
-    let m2_inb = pins.gpio7.into_push_pull_output();
-    let m3_ina = pins.gpio15.into_push_pull_output();
-    let m3_inb = pins.gpio16.into_push_pull_output();
-    let m4_ina = pins.gpio17.into_push_pull_output();
-    let m4_inb = pins.gpio18.into_push_pull_output();  //m1 and m4 are cw
+    let io = esp_hal::gpio::Io::new(peripherals.GPIO, peripherals.IO_MUX);
 
-    let cs = pins.gpio10.into_push_pull_output();
-    let sck = pins.gpio12.into_push_pull_output();
-    let mosi = pins.gpio11.into_push_pull_output();
-    let miso = pins.gpio13.into_push_pull_input();
-    let _int = pins.gpio46.into_push_pull_input();
+    let m1_ina = Output::new(io.pins.gpio4, esp_hal::gpio::Level::Low);
+    let m1_inb = Output::new(io.pins.gpio5, esp_hal::gpio::Level::Low);
+    let m2_ina = Output::new(io.pins.gpio6, esp_hal::gpio::Level::Low);
+    let m2_inb = Output::new(io.pins.gpio7, esp_hal::gpio::Level::Low);
+    let m3_ina = Output::new(io.pins.gpio15, esp_hal::gpio::Level::Low);
+    let m3_inb = Output::new(io.pins.gpio16, esp_hal::gpio::Level::Low);
+    let m4_ina = Output::new(io.pins.gpio17, esp_hal::gpio::Level::Low);
+    let m4_inb = Output::new(io.pins.gpio18, esp_hal::gpio::Level::Low);
+
+    let cs = Output::new(io.pins.gpio10, esp_hal::gpio::Level::High);
+    let sck = Output::new(io.pins.gpio12, esp_hal::gpio::Level::Low);
+    let mosi = Output::new(io.pins.gpio11, esp_hal::gpio::Level::Low);
+    let miso = Input::new(io.pins.gpio13);
+    let _int = Input::new(io.pins.gpio46);
 
     let spi = Spi::new(
         peripherals.SPI2,
-        SpiMode::Mode0,
-        SpiDataMode::FullDuplex,
-        &clocks,
+        SpiConfig::default()
+            .with_frequency(Rate::from_mhz(1))
+            .with_mode(Mode::_0),
     )
+    .unwrap()
+    .with_sck(sck)
     .with_mosi(mosi)
     .with_miso(miso)
-    .with_sck(sck);
+    .with_cs(cs);
 
-    let mut ledc = Ledc::new(peripherals.LEDC, &clocks);
-    let mut ledc_timer = ledc.timer::<timer::Number1, _>(
-        timer::Lstm32,
-        timer::source::APB_CLK,
-        Resolution::Bits10,
-    );
-    ledc_timer.configure(&mut ledc);
+    let mut ledc = Ledc::new(peripherals.LEDC);
+    ledc.set_global_slow_clock(LSGlobalClkSource::APBClk);
 
-    let channel0 = ledc.channel::<channel::Number0, _>(m1_ina);
-    let channel1 = ledc.channel::<channel::Number1, _>(m1_inb);
-    let channel2 = ledc.channel::<channel::Number2, _>(m2_ina);
-    let channel3 = ledc.channel::<channel::Number3, _>(m2_inb);
-    let channel4 = ledc.channel::<channel::Number4, _>(m3_ina);
-    let channel5 = ledc.channel::<channel::Number5, _>(m3_inb);
-    let channel6 = ledc.channel::<channel::Number6, _>(m4_ina);
-    let channel7 = ledc.channel::<channel::Number7, _>(m4_inb);
+    let mut lstimer0 = ledc.timer::<LowSpeed>(timer::Number::Timer0);
+    lstimer0
+        .configure(timer::config::Config {
+            duty: timer::config::Duty::Duty10Bit,
+            clock_source: timer::LSClockSource::APBClk,
+            frequency: Rate::from_khz(20),
+        })
+        .unwrap();
+
+    let channel0 = ledc.channel(channel::Number::Channel0, m1_ina);
+    let channel1 = ledc.channel(channel::Number::Channel1, m1_inb);
+    let channel2 = ledc.channel(channel::Number::Channel2, m2_ina);
+    let channel3 = ledc.channel(channel::Number::Channel3, m2_inb);
+    let channel4 = ledc.channel(channel::Number::Channel4, m3_ina);
+    let channel5 = ledc.channel(channel::Number::Channel5, m3_inb);
+    let channel6 = ledc.channel(channel::Number::Channel6, m4_ina);
+    let channel7 = ledc.channel(channel::Number::Channel7, m4_inb);
 
     let mut motor_ctrl = MotorCtrl::new(
         channel0, channel1, channel2, channel3,
@@ -114,11 +107,11 @@ fn main() -> ! {
     let mut yaw = Pidctrl::new(1.0, 0.0, 0.0);
 
     let mut filter = ComFil::new(0.98);
-    let throttle = 0.0;
-    let target_roll = 0.0;
-    let target_pitch = 0.0;
-    let target_yaw = 0.0;
-    let armed = false;
+    let mut throttle = 0.0;
+    let mut target_roll = 0.0;
+    let mut target_pitch = 0.0;
+    let mut target_yaw = 0.0;
+    let mut armed = false;
 
     let loop_delay = 10;
     let dt = loop_delay as f32 / 1000.0;
@@ -168,8 +161,6 @@ fn main() -> ! {
                 motor_ctrl.stop_all();
             }
         }
-
-        //space left for esp-now for later
     }
 }
 
@@ -193,5 +184,3 @@ enum Command {
     Throttle(f32),
     SetTarget(f32, f32, f32),
 }
-
-//place for esp-now 

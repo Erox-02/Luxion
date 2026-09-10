@@ -4,17 +4,15 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-esp32s3-hal = "0.16.0"
-esp-backtrace = { version = "0.13.0", features = ["esp32s3", "exception-handler", "panic-handler"] }
-libm = "0.2.8"
-embedded-hal = "1.0.0"
-nb = "1.1.0"
-esp-println = { version = "0.8.0", features = ["esp32s3"] }
-esp-hal = "1.0.0-beta.0"
-embedded-time = "0.12.1"
+esp-hal = { version = "1.2.0", features = ["esp32s3"] }
+esp-backtrace = { version = "0.20.0", features = [
+    "esp32s3",
+    "panic-handler",
+] }
+esp-println = { version = "0.18.0", features = ["esp32s3"] }
 
-[build-dependencies]
-esp32s3-hal = "0.16.0"
+embedded-hal = "1.0.0"
+libm = "0.2.15"
 
 [profile.release]
 opt-level = "z"

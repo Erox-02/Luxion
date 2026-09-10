@@ -85,7 +85,12 @@ Finally done i am crying , wait i didnt run drc .
 
 ![pcb](assets/pcb_v5.png)
 
-DRC says i have errors but thts mostly trash as it says my yps63022's footprint has lower sized hole than the min , ahh my eyes are on fire ,i need to sleep still imma gonna fix it first .
+
+**Total time spent: 8 hours**
+
+# Sept 6 ptb :  Pcb polishing
+
+DRC says i have errors but thts mostly trash as it says my tps63022's footprint has lower sized hole than the min , ahh my eyes are on fire ,i need to sleep still imma gonna fix it first .
 
 ![finally](assets/pcb_v6.png)
 
@@ -102,7 +107,7 @@ look like this is all i can do for today . Also looks like the designing part is
 
 ![Final](assets/3d_mod.png)
 
-**Total time spent: 11 hours**
+**Total time spent: 2 hours**
 
 # Sept 7 : cost estimation + readme fix
 
@@ -159,5 +164,18 @@ ok fixed tht and main.rs architecture side done too now i will push and let deep
 ok added firmware to readme done .
 
 **Total time spent: 6 hours**
+
+# Sept 10 :
+
+At first lets start with creating the env* , for me as an arch user i just did sudo pacman -S rustup espup thts why i use arch btw its perfect ,
+
+![i use arch btw](assets/archbtw.png)
+
+ok i just came to know my reference package api example was from a older esp hal HOLY .... now i need to migrate why it sucks on this level , i really dont wanna do it again . Luckily i didnt use the esp api's in filter and pid files , imma gonna let deepseek do this .
+
+all settled it is migrated now so now i need to implant the esp-now logic , ok np .
+
+
+
 
 
