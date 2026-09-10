@@ -165,7 +165,7 @@ ok added firmware to readme done .
 
 **Total time spent: 6 hours**
 
-# Sept 10 :
+# Sept 10 : Starting with the remote 
 
 At first lets start with creating the env* , for me as an arch user i just did sudo pacman -S rustup espup thts why i use arch btw its perfect ,
 
@@ -173,9 +173,21 @@ At first lets start with creating the env* , for me as an arch user i just did s
 
 ok i just came to know my reference package api example was from a older esp hal HOLY .... now i need to migrate why it sucks on this level , i really dont wanna do it again . Luckily i didnt use the esp api's in filter and pid files , imma gonna let deepseek do this .
 
-all settled it is migrated now so now i need to implant the esp-now logic , ok np .
+all settled it is migrated now so now i need to implant the esp-now logic , ok np . No way this time again i will use old reference code 
 
+![ref structs](assets/ref.png)
 
+also i want to again say , crate is far better than pypi , "sometime truth hits hard " .  OK so imma gonna design the remote first easy peasy then the esp-now . i already have the required things in hand now , i mean i dont need to even buy a single thing(except a vero board and some headers to solder the esp i will buy it locally and by myself dont stress over orphy) so i thinks i shld build the remote first ok then if its decided then why not . My current esp(not the drone one but the one i have in home now ) is a esp32 devkitv1 likely wroom idk for sure but as i have it and 2 joysticks , i dont even need a pcb i will solder these to vero board and make it work . wait i found a old vero board too in my salavaged parts lets goooo!!
 
+![salavaged parts](assets/comps.png)
+
+so here i am goin to solder all of those on tht small vero board but idk where to mount the joysticks . ok mounted the joystics but my soldering is way too bad for this task . 
+![joystick](assets/joystick.jpeg)
+
+nah i am out i will just make a pcb for it too or buy a diff iron , its too hard with this freaking iron i just cant even solder a led with it , i tried to re tin still it didnt work and after a lot of tests it exploded lol luckily i didnt got hurt but my remote is strucked now imma gonna do the software first or even just use wifi ahhh it sucks as hell still the final looks . 
+
+![it sucks](assets/wireout.jpeg)
+
+**Total time spent: 5 hours**
 
 
