@@ -190,4 +190,39 @@ nah i am out i will just make a pcb for it too or buy a diff iron , its too hard
 
 **Total time spent: 5 hours**
 
+# Sept 11 : Remote's pcb
 
+I have got a sick idea instead of a physical remote , i will just connect the esp to my phone via serial and use the esp with esp-now and my phone for controlling(as esp-now is 1Mx times better than just wifi ) ok so i am currently thinkin what shld i use a web ui or a kotlin app , its kinda hard for me to chose but anyways frontend = deepseek is cooking so i dont need to worry . Wait why am i not making a seperate pcb for the remote ? ok perfect for poc , phone but as idh much works so i will be designing the pcb too in parallel . 
+
+ Ok started the schematics , i againn used the same module for esp , and tps again and built the schematic , heres it
+
+![schematic](assets/rm_sch.png)
+
+ok next is pcb . Ok pcb done too
+
+![pcb](assets/rm_pcb.png)
+
+wait why my 5v and 3.3v have same power rail??
+
+![prob](assets/batt_err.png)
+
+bruh it hella sucks wait when i highlighted i came to know its gnd shared not 5v wtf am i blind now?
+
+![err](assets/sch_rm.png)
+
+ok pcb done likely but i feel like i am forgeting something anyways take a look :
+
+![done](assets/done_pcb.png)
+
+ohhhhh i get it what i forgot the mounting holes for the joysticks ok ok lemme add tht too
+
+![done](assets/final_rm.png)
+
+done finally the remote too , now i need to upgrade the bom but not only tht i wanna show ya guys a really funny thing 
+
+![lol](assets/3d_lol.png)
+
+this is the 3d pic but lol my footprints are likr my buzzer is a 2 pin diode and my pins for the joystick looks hillarious .
+ok today did a lot of heavy lifting now matane next day .
+
+**Total time spent: 5 hours**
