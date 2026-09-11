@@ -228,6 +228,6 @@ ok today did a lot of heavy lifting now matane next day .
 also now i tested it in jlcpcb take a look
 ![jlcpcb](assets/jlc.png)
 
-but theres a huge problem , the mpu6500 is out of stock same goes for mpy9250 so now i need to switch to mpu6050 , hell naw i will need to change my gerber , code and a lot of more things ahhh it sucks .Ok i found a alt in robu but it costs likely 8$ while the old one was barely 1.5$ nah not gonna waste this much money instead i will use a mpu6050 and rdesign . ok so thts the task for tomorrow lemme upgrade the bom for now
+but theres a huge problem , the mpu6500 is out of stock same goes for mpy9250 so now i need to switch to mpu6050 , hell naw i will need to change my gerber , code and a lot of more things ahhh it sucks .Ok i found a alt in robu but it costs likely 8$ while the old one was barely 1.5$ nah not gonna waste this much money instead i will use a mpu6050 and redesign . ok so thts the task for tomorrow lemme upgrade the bom for now
 
 **Total time spent: 6 hours**
