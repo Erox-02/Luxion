@@ -231,3 +231,68 @@ also now i tested it in jlcpcb take a look
 but theres a huge problem , the mpu6500 is out of stock same goes for mpy9250 so now i need to switch to mpu6050 , hell naw i will need to change my gerber , code and a lot of more things ahhh it sucks .Ok i found a alt in robu but it costs likely 8$ while the old one was barely 1.5$ nah not gonna waste this much money instead i will use a mpu6050 and redesign . ok so thts the task for tomorrow lemme upgrade the bom for now
 
 **Total time spent: 6 hours**
+
+
+# Sept 12 : Restart
+
+The previous day , my reviewer told me my pcb is half cooked , but after watching a tutorial i came to know why he said it .
+So this time i am goin to document it like a pro , heres the first schematics portion
+
+![restart](assets/restart.png)
+
+The esp , the tps , the bl5612's , the mpu every thing will be separated this time also according to the datasheet, the gpio19 and gpio20 are D+ and D-
+
+![data](assets/data_1.png)
+
+next is connecting all the motor drivers with good enough pins .
+
+![done](assets/restart_2.png)
+
+done now i need to connect the mpu , as the breakout is always cheaper in india , why not ?
+
+![esp](assets/esp.png)
+
+i think i can just mount the mpu on top of the esp done  and a double tape will do the vibration avoidance thing .
+
+![schematic](assets/resch_1.png)
+
+This time i added a bmp180 too with the mpu6050 , also fixed the esp's en funcition by adding a 10k ohm res between 3.3v and en instead of the old direct connection .
+
+after it , i added the caps needed on bl5612 ic's
+
+![caps_added](assets/cap_bl.png)
+
+ok now i think imma gonna add the motors , thts easy .
+Done already
+
+![motors_added](assets/motor_sch.png)
+
+Now i think i have to add the caps on the tps and on the esp , on the mpu and bmp too . 
+
+done i added a lots of caps this time , for the motors , for esp , for the mpu .....
+
+![caps](assets/rest_3.png)
+
+Now i need to add a button to en for reset i think a trace wd be just fine no button needed at all .
+
+![trace_addedd](assets/trace.png)
+
+ohh i actually wired the en cap wrong , it was on 3.3v instead of en , i fixed tht also changed the cap value to 10uf as idc if the delay is 100ms .
+
+This time i ran drc , fixed some minor probs and added a battery , also 4 22uf caps in parallel :
+
+![final](assets/final_sch.png)
+
+Ok after it i added all the footprints , this one took me a lot of time really a lot of time 
+
+![footprint](assets/footprints_assi.png)
+
+Bruh wtf did i do wrong?? i got some big ic's instead of my poor resistors , lol needa fix tht 
+
+![lol](assets/wtf.png)
+
+ok i fixed tht now lets dive into pcb wait maybe i shld save tht for tomorrow i already did a lot of work today !
+
+![fixeddd](assets/fix.png)
+
+**Total time spent: 8 hours**

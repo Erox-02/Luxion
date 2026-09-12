@@ -8,3 +8,6 @@ kicad/lux/sym-lib-table
 kicad/remote/.history
 kicad/remote/~*
 kicad/remote/_*
+kicad/drone/lux/~*
+kicad/drone/lux/_*
+kicad/drone/lux/.hi*
