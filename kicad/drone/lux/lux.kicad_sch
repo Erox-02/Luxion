@@ -8347,7 +8347,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:DSJ14_2P85X1P58"
+		(property "Footprint" "Inductor_SMD:L_Bourns-SRN8040_8x8.15mm"
 			(at 173.99 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -11105,7 +11105,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Module:Pololu_Breakout-16_15.2x20.3mm"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 29.21 34.798 90)
 			(hide yes)
 			(show_name no)
@@ -11265,7 +11265,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Module:Pololu_Breakout-16_15.2x20.3mm"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 93.98 85.598 90)
 			(hide yes)
 			(show_name no)
@@ -11663,7 +11663,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Module:Pololu_Breakout-16_15.2x20.3mm"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 100.33 89.662 90)
 			(hide yes)
 			(show_name no)
@@ -12376,7 +12376,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bb12fcb5-a82a-4220-8c01-cb69453978d5")
-		(property "Reference" "BMP"
+		(property "Reference" "BMP1"
 			(at 79.756 115.062 0)
 			(hide yes)
 			(show_name no)
@@ -12397,7 +12397,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector:FanPinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Connector_Hirose:Hirose_DF13-04P-1.25DSA_1x04_P1.25mm_Vertical"
 			(at 77.47 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -12445,7 +12445,7 @@
 		(instances
 			(project "lux"
 				(path "/f3a45523-230c-48ab-a937-ad3e7df8831b"
-					(reference "BMP")
+					(reference "BMP1")
 					(unit 1)
 				)
 			)

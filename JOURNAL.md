@@ -296,3 +296,56 @@ ok i fixed tht now lets dive into pcb wait maybe i shld save tht for tomorrow i 
 ![fixeddd](assets/fix.png)
 
 **Total time spent: 8 hours**
+
+# Sept 13 : Starin the pcb
+
+![pcb started](assets/pcb_res.png)
+
+placed the bl5612's onto their right place now lets see what can my small raccon like brain do?
+
+Bruh wtf i really placed another tps instead of my inductor , footprint is really hell .
+
+![fixed footprint](assets/ind_fx.png)
+
+ok fixed it .
+
+btw the barometer looks really big , needa fix its size .
+
+![done](assets/bar_fix.png)
+
+done now i need to place everything on right place then seperate the ground ............and alll the tasks.
+
+wait lemme resolv the 3d model first or i wont be able to mount the pcb . 
+
+ok as shadow said , my own fcstd , done 
+
+![iusearchbtw](assets/right.png)
+---
+![iusearchbtw](assets/side.png) 
+---
+![iusearchbtw](assets/top.png)
+---
+
+done the model looks really sick
+path is :
+[path to model](./3d/lux.FCStd)
+
+i took the old model as reference thts why it went this fast , still took me a bit time as i rebuild the geometry .
+
+ok now the pcb , now finally its favorable as i have the model done but wait i forgot the mounting holes uhhh it sucks .
+
+![comps placed](assets/ol.png)
+
+placed all the components on their right position now i need a bit adjustment and then placement done
+
+![placement](assets/nw.png)
+
+looks like done but now some finishing ,
+![cropped](assets/crped.png)
+
+i cropped the pcb and fixed the placing looks like thts all before connection .
+
+oh man the 3d model really ate all my time .
+
+**Total time spent: 8 hours**
+

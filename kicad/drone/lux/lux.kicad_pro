@@ -682,7 +682,7 @@
         "uuid": "f3a45523-230c-48ab-a937-ad3e7df8831b"
       }
     ],
-    "used_designators": "J1,J3-4,L1-2,BZ1,M1-5,R1-7,H1-4,BT1,U1-6,D1-2,C1-5,C9-24,#PWR1-33,MPU1,USBC1,BMP1",
+    "used_designators": "BMP1,J1,J3-4,L1-2,USBC1,MPU1,BZ1,M1-5,R1-7,H1-4,BT1,U1-6,D1-2,C1-5,C9-24,#PWR1-33",
     "variants": []
   },
   "sheets": [
