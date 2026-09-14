@@ -347,5 +347,67 @@ i cropped the pcb and fixed the placing looks like thts all before connection .
 
 oh man the 3d model really ate all my time .
 
+hm so i made filled zone for the gnd , and started routing 
+
+![motorsss](assets/moto.png)
+
+i added the thick af trace for it .
+
+![via](assets/via.png)
+
+this time i made via's a lot more fat for more power draw . also connectd other things ,
+
+![usb](assets/usb.png)
+
+then i did the usb part , i used really small 0.1mm traces as d+ and d- doesnt carry much power, after tht i wired the tps to inductor , and more tht i forgot check the photo for it.
+
+
 **Total time spent: 8 hours**
 
+# Sept 14 : Finishing the pcb
+
+today i wanna power the motors correctly :
+![pwr](assets/mpwr.png)
+
+done the right sided motors are fine now . phew!
+
+![pcb](assets/pcbb.png)
+
+this time i connected the usb c , the tps a bit more , and connected the resistors with the esp , its just some minor job . after a lil more connection it will be done .
+
+![done](assets/pcb_dne.png)
+
+ok done the pcb looks cool
+![3d](assets/pcb3d.png)
+
+heres the 3d model , it looks damn cool .
+
+![power](assets/pwrr.png)
+
+just take a look at the tps portion i made it tightly packed looks really cooool .
+
+![3dd](assets/3dd.png)
+
+ahh i placed the mounting holes wrong now i need to replace them correctly ok lets do tht 
+
+done
+
+![3d](assets/3d_.png)
+
+wait but the edges are out of the frame needa fix tht eaxy job , cut the pcb baby.
+no wait imma not gonna cut the pcb now , it will make me do a lot of things again.
+
+![jlc](assets/jlccccc.png)
+
+lol the small via  pcb costs more than all the comps together , lol again .
+
+so i need to make the via's bigger ah .
+
+![vias](assets/jllc.png)
+
+fixed it uh now atleast it costs less than the comps .
+![jlcpcb](assets/jlccc.png)
+
+ok now i need to do the remote .
+
+**Total time spent: 7 hours**
