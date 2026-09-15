@@ -367,13 +367,14 @@ then i did the usb part , i used really small 0.1mm traces as d+ and d- doesnt c
 # Sept 14 : Finishing the pcb
 
 today i wanna power the motors correctly :
+
 ![pwr](assets/mpwr.png)
 
 done the right sided motors are fine now . phew!
 
 ![pcb](assets/pcbb.png)
 
-this time i connected the usb c , the tps a bit more , and connected the resistors with the esp , its just some minor job . after a lil more connection it will be done .
+this time i connected the usb c , the tps a bit more , and connected the resistors with the esp , its just some minor job . after a lil more connection it will be done . 
 
 ![done](assets/pcb_dne.png)
 
@@ -409,5 +410,35 @@ fixed it uh now atleast it costs less than the comps .
 ![jlcpcb](assets/jlccc.png)
 
 ok now i need to do the remote .
+
+**Total time spent: 7 hours**
+
+# Sept 15 : Remote schematics
+
+i just realized i was wastin resources by allowcating a whole  esp32 s3 n16r8 to the remote , and i found esp32 c3 tht costs half the cost of the s3 and also as thts a breakout i am savin a lot of money too lol .
+lol i cant find the footprint of esp32 c3 super mini , i tried gemini , gpt , google , no one was able to find it , looks like needa make it myself or make gpt make it for me haha buhhahhahhaha .
+
+wait i found it , from reddit lol . but its footprint only no symbol i need symbol too so i think i might make the symbol myself . 
+
+[the random reddit link](https://drive.google.com/file/d/1Ia2y5KgLuTCjiLleW4krdE9uNQLiYWtD/view)
+
+now i will need to find or make the sym , wait its the s3 supermini not c3 super mini ahhhh life sucks ....
+
+ok i will ditch the c3 supermini idea .. so what i am supposed to do now? maybe ditch the remote and controll with a phone? lol lets do tht ,nah ths not something like me to do , 
+ok gah then imma gonna build with a esp module not breakout but tht costs too much for a basic thing , wait wait i can use my existing esp ah but tht one doesnt hav any external antenna , idk what to do now , i will just go with the c3 super mini thts good , i cant even do phone seria to my esp as my esp has uart instead of native esp like the s3 or c3 series . 
+
+ohhhh i found gold take a look :
+
+![Peter's electric trick and electronic blog](assets/esp.png)
+
+oh i can do it to make my esp do the work already why worry ? 
+
+wait even better ESP-M1 ESP8285 found a esp8266 and it is far cheaper imma gonna use it . wait its out of stock lol , maybe i shld go ahead and use my esp32-s3 as planned at first lol .  i checked Espressif ESP32-S3-MINI-1U-N8 Module but 
+![esp](image.png)
+it has lower sensivity so only option original route ahhhh i just wasted 5 hrs to save a few hundred rs and failed lol .
+
+![lol](assets/rmote.png)
+
+ok thts enough i gotta sleep now or gonna die.
 
 **Total time spent: 7 hours**
