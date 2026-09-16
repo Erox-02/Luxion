@@ -5600,6 +5600,12 @@
 					(unit 1)
 				)
 			)
+			(project "remote"
+				(path "/f929a826-1add-41f1-859f-8d78be715d51"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5681,6 +5687,12 @@
 					(unit 1)
 				)
 			)
+			(project "remote"
+				(path "/f929a826-1add-41f1-859f-8d78be715d51"
+					(reference "C21")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5757,6 +5769,12 @@
 					(unit 1)
 				)
 			)
+			(project "remote"
+				(path "/f929a826-1add-41f1-859f-8d78be715d51"
+					(reference "H2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5829,6 +5847,12 @@
 		(instances
 			(project "lux"
 				(path "/f3a45523-230c-48ab-a937-ad3e7df8831b"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+			(project "remote"
+				(path "/f929a826-1add-41f1-859f-8d78be715d51"
 					(reference "H1")
 					(unit 1)
 				)
@@ -5914,6 +5938,12 @@
 					(unit 1)
 				)
 			)
+			(project "remote"
+				(path "/f929a826-1add-41f1-859f-8d78be715d51"
+					(reference "C20")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5989,6 +6019,12 @@
 		(instances
 			(project "lux"
 				(path "/f3a45523-230c-48ab-a937-ad3e7df8831b"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+			(project "remote"
+				(path "/f929a826-1add-41f1-859f-8d78be715d51"
 					(reference "L1")
 					(unit 1)
 				)
@@ -6074,6 +6110,12 @@
 					(unit 1)
 				)
 			)
+			(project "remote"
+				(path "/f929a826-1add-41f1-859f-8d78be715d51"
+					(reference "C13")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6147,6 +6189,12 @@
 		(instances
 			(project "lux"
 				(path "/f3a45523-230c-48ab-a937-ad3e7df8831b"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+			(project "remote"
+				(path "/f929a826-1add-41f1-859f-8d78be715d51"
 					(reference "#PWR010")
 					(unit 1)
 				)
@@ -6229,6 +6277,12 @@
 					(unit 1)
 				)
 			)
+			(project "remote"
+				(path "/f929a826-1add-41f1-859f-8d78be715d51"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6304,6 +6358,12 @@
 		(instances
 			(project "lux"
 				(path "/f3a45523-230c-48ab-a937-ad3e7df8831b"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+			(project "remote"
+				(path "/f929a826-1add-41f1-859f-8d78be715d51"
 					(reference "R1")
 					(unit 1)
 				)
@@ -6463,6 +6523,12 @@
 					(unit 1)
 				)
 			)
+			(project "remote"
+				(path "/f929a826-1add-41f1-859f-8d78be715d51"
+					(reference "USBC1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6536,6 +6602,12 @@
 		(instances
 			(project "lux"
 				(path "/f3a45523-230c-48ab-a937-ad3e7df8831b"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+			(project "remote"
+				(path "/f929a826-1add-41f1-859f-8d78be715d51"
 					(reference "#PWR014")
 					(unit 1)
 				)
@@ -6621,6 +6693,12 @@
 					(unit 1)
 				)
 			)
+			(project "remote"
+				(path "/f929a826-1add-41f1-859f-8d78be715d51"
+					(reference "C14")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6696,6 +6774,12 @@
 		(instances
 			(project "lux"
 				(path "/f3a45523-230c-48ab-a937-ad3e7df8831b"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+			(project "remote"
+				(path "/f929a826-1add-41f1-859f-8d78be715d51"
 					(reference "#PWR07")
 					(unit 1)
 				)
@@ -6778,6 +6862,12 @@
 					(unit 1)
 				)
 			)
+			(project "remote"
+				(path "/f929a826-1add-41f1-859f-8d78be715d51"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6852,6 +6942,12 @@
 		(instances
 			(project "lux"
 				(path "/f3a45523-230c-48ab-a937-ad3e7df8831b"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+			(project "remote"
+				(path "/f929a826-1add-41f1-859f-8d78be715d51"
 					(reference "#PWR02")
 					(unit 1)
 				)
@@ -6933,6 +7029,12 @@
 					(unit 1)
 				)
 			)
+			(project "remote"
+				(path "/f929a826-1add-41f1-859f-8d78be715d51"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7008,6 +7110,12 @@
 		(instances
 			(project "lux"
 				(path "/f3a45523-230c-48ab-a937-ad3e7df8831b"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+			(project "remote"
+				(path "/f929a826-1add-41f1-859f-8d78be715d51"
 					(reference "R3")
 					(unit 1)
 				)
@@ -7093,6 +7201,12 @@
 					(unit 1)
 				)
 			)
+			(project "remote"
+				(path "/f929a826-1add-41f1-859f-8d78be715d51"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7166,6 +7280,12 @@
 		(instances
 			(project "lux"
 				(path "/f3a45523-230c-48ab-a937-ad3e7df8831b"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+			(project "remote"
+				(path "/f929a826-1add-41f1-859f-8d78be715d51"
 					(reference "#PWR08")
 					(unit 1)
 				)
@@ -7251,6 +7371,12 @@
 					(unit 1)
 				)
 			)
+			(project "remote"
+				(path "/f929a826-1add-41f1-859f-8d78be715d51"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7326,6 +7452,12 @@
 		(instances
 			(project "lux"
 				(path "/f3a45523-230c-48ab-a937-ad3e7df8831b"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+			(project "remote"
+				(path "/f929a826-1add-41f1-859f-8d78be715d51"
 					(reference "R7")
 					(unit 1)
 				)
@@ -7409,6 +7541,12 @@
 					(unit 1)
 				)
 			)
+			(project "remote"
+				(path "/f929a826-1add-41f1-859f-8d78be715d51"
+					(reference "R5")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7482,6 +7620,12 @@
 		(instances
 			(project "lux"
 				(path "/f3a45523-230c-48ab-a937-ad3e7df8831b"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+			(project "remote"
+				(path "/f929a826-1add-41f1-859f-8d78be715d51"
 					(reference "#PWR04")
 					(unit 1)
 				)
@@ -7561,6 +7705,12 @@
 		(instances
 			(project "lux"
 				(path "/f3a45523-230c-48ab-a937-ad3e7df8831b"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+			(project "remote"
+				(path "/f929a826-1add-41f1-859f-8d78be715d51"
 					(reference "#PWR06")
 					(unit 1)
 				)
@@ -7646,6 +7796,12 @@
 					(unit 1)
 				)
 			)
+			(project "remote"
+				(path "/f929a826-1add-41f1-859f-8d78be715d51"
+					(reference "C23")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7721,6 +7877,12 @@
 		(instances
 			(project "lux"
 				(path "/f3a45523-230c-48ab-a937-ad3e7df8831b"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+			(project "remote"
+				(path "/f929a826-1add-41f1-859f-8d78be715d51"
 					(reference "R6")
 					(unit 1)
 				)
@@ -7803,6 +7965,12 @@
 					(unit 1)
 				)
 			)
+			(project "remote"
+				(path "/f929a826-1add-41f1-859f-8d78be715d51"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7876,6 +8044,12 @@
 		(instances
 			(project "lux"
 				(path "/f3a45523-230c-48ab-a937-ad3e7df8831b"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+			(project "remote"
+				(path "/f929a826-1add-41f1-859f-8d78be715d51"
 					(reference "#PWR021")
 					(unit 1)
 				)
@@ -7961,6 +8135,12 @@
 					(unit 1)
 				)
 			)
+			(project "remote"
+				(path "/f929a826-1add-41f1-859f-8d78be715d51"
+					(reference "C18")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8038,6 +8218,12 @@
 		(instances
 			(project "lux"
 				(path "/f3a45523-230c-48ab-a937-ad3e7df8831b"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+			(project "remote"
+				(path "/f929a826-1add-41f1-859f-8d78be715d51"
 					(reference "SW1")
 					(unit 1)
 				)
@@ -8121,6 +8307,12 @@
 					(unit 1)
 				)
 			)
+			(project "remote"
+				(path "/f929a826-1add-41f1-859f-8d78be715d51"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8196,6 +8388,12 @@
 		(instances
 			(project "lux"
 				(path "/f3a45523-230c-48ab-a937-ad3e7df8831b"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+			(project "remote"
+				(path "/f929a826-1add-41f1-859f-8d78be715d51"
 					(reference "R2")
 					(unit 1)
 				)
@@ -8281,6 +8479,12 @@
 					(unit 1)
 				)
 			)
+			(project "remote"
+				(path "/f929a826-1add-41f1-859f-8d78be715d51"
+					(reference "C15")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8362,6 +8566,12 @@
 					(unit 1)
 				)
 			)
+			(project "remote"
+				(path "/f929a826-1add-41f1-859f-8d78be715d51"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8436,6 +8646,12 @@
 		(instances
 			(project "lux"
 				(path "/f3a45523-230c-48ab-a937-ad3e7df8831b"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+			(project "remote"
+				(path "/f929a826-1add-41f1-859f-8d78be715d51"
 					(reference "#PWR032")
 					(unit 1)
 				)
@@ -8521,6 +8737,12 @@
 					(unit 1)
 				)
 			)
+			(project "remote"
+				(path "/f929a826-1add-41f1-859f-8d78be715d51"
+					(reference "C22")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8599,6 +8821,12 @@
 					(unit 1)
 				)
 			)
+			(project "remote"
+				(path "/f929a826-1add-41f1-859f-8d78be715d51"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8672,6 +8900,12 @@
 		(instances
 			(project "lux"
 				(path "/f3a45523-230c-48ab-a937-ad3e7df8831b"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+			(project "remote"
+				(path "/f929a826-1add-41f1-859f-8d78be715d51"
 					(reference "#PWR029")
 					(unit 1)
 				)
@@ -8796,6 +9030,12 @@
 					(unit 1)
 				)
 			)
+			(project "remote"
+				(path "/f929a826-1add-41f1-859f-8d78be715d51"
+					(reference "U2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8875,6 +9115,12 @@
 					(unit 1)
 				)
 			)
+			(project "remote"
+				(path "/f929a826-1add-41f1-859f-8d78be715d51"
+					(reference "R4")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8948,6 +9194,12 @@
 		(instances
 			(project "lux"
 				(path "/f3a45523-230c-48ab-a937-ad3e7df8831b"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+			(project "remote"
+				(path "/f929a826-1add-41f1-859f-8d78be715d51"
 					(reference "#PWR011")
 					(unit 1)
 				)
@@ -9066,6 +9318,12 @@
 					(unit 1)
 				)
 			)
+			(project "remote"
+				(path "/f929a826-1add-41f1-859f-8d78be715d51"
+					(reference "BT1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9143,6 +9401,12 @@
 					(unit 1)
 				)
 			)
+			(project "remote"
+				(path "/f929a826-1add-41f1-859f-8d78be715d51"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9216,6 +9480,12 @@
 		(instances
 			(project "lux"
 				(path "/f3a45523-230c-48ab-a937-ad3e7df8831b"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+			(project "remote"
+				(path "/f929a826-1add-41f1-859f-8d78be715d51"
 					(reference "#PWR030")
 					(unit 1)
 				)
@@ -9443,6 +9713,12 @@
 					(unit 1)
 				)
 			)
+			(project "remote"
+				(path "/f929a826-1add-41f1-859f-8d78be715d51"
+					(reference "U1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9517,6 +9793,12 @@
 		(instances
 			(project "lux"
 				(path "/f3a45523-230c-48ab-a937-ad3e7df8831b"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+			(project "remote"
+				(path "/f929a826-1add-41f1-859f-8d78be715d51"
 					(reference "#PWR013")
 					(unit 1)
 				)
@@ -9601,6 +9883,12 @@
 					(unit 1)
 				)
 			)
+			(project "remote"
+				(path "/f929a826-1add-41f1-859f-8d78be715d51"
+					(reference "T1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9678,6 +9966,12 @@
 		(instances
 			(project "lux"
 				(path "/f3a45523-230c-48ab-a937-ad3e7df8831b"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+			(project "remote"
+				(path "/f929a826-1add-41f1-859f-8d78be715d51"
 					(reference "C19")
 					(unit 1)
 				)

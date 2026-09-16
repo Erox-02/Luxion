@@ -442,3 +442,43 @@ it has lower sensivity so only option original route ahhhh i just wasted 5 hrs t
 ok thts enough i gotta sleep now or gonna die.
 
 **Total time spent: 7 hours**
+
+# Sept 16 :  
+
+ok i started today with some research , looks like imma gonna reuse my joysticks and then but for tht i need a soldering but currently i only have a hot air station lol lets use tht 
+
+![sw](assets/sw.png)
+
+added switchs for the schematics  , now i think i shld design the pcb instead .
+
+![pcb](assets/pcb_rm.png)
+
+started the pcb 
+
+![done halfways](assets/pdne.png)
+
+ah lol i did a lot of work still its no t even halfways done 
+
+![done](assets/dne.png)
+
+done finally i think now i can sleep in ease but wait idh any buzzer or led , let tht go just lets take it to jlcpcb i am realy sleepy .
+
+wait arent the buttons too big??
+
+and the vias are too small to manufacture , so i need to make them bigger , fixed them now need to rerun the drc 
+
+![drc](assets/vias.png)
+
+ran drc again , min dia size was err'ing so i changed all 
+
+![viasss](assets/viass.png)
+
+oh holy sh*t! now i need to fix it for the drone tooooo .
+
+![rt](assets/rt.png)
+
+this is the 3d, but i tried turning rt on , and lol my i5 1135g7 on zen 7.2.3 , got absolutely roasted af .
+
+i will do the drones pcb and remotes cad tomorrow matane
+
+**Total time spent: 7 hours**
