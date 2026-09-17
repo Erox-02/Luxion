@@ -411,7 +411,7 @@ fixed it uh now atleast it costs less than the comps .
 
 ok now i need to do the remote .
 
-**Total time spent: 7 hours**
+**Total time spent: 5.5 hours**
 
 # Sept 15 : Remote schematics
 
@@ -482,3 +482,55 @@ this is the 3d, but i tried turning rt on , and lol my i5 1135g7 on zen 7.2.3 , 
 i will do the drones pcb and remotes cad tomorrow matane
 
 **Total time spent: 7 hours**
+
+# Sept 17 : cad for remote
+
+lol lemme add the joystick footprint first , how can i forget tht ?
+
+also i considered using a custom vtx but the costs lol , it crosses the 50$ as mine is t3 lol lets stic to the plan 
+
+wow wow found a perfect antenna 
+
+![antenna](assets/ante.png)
+
+ts is 2.4ghz and dipole perfect , i read the dataset too its damn good. now need to fix the remote lol .
+wait i need to remove the switchs to somewhere else as i need to use adc-1 on my esp for the nrx and nry of my joysticks as espnow shares a bit with the adc-2 lane
+maybe? as it does wit wifi too !
+
+![joystck](assets/joy.png)
+
+done added the joystick support on the schematic now need to add joystick on pcb too.
+
+![led](assets/led.png)
+
+added led too , but findin it and the resistors were a really boarin task still did it and found the cheapest one as usual .
+
+![res](assets/ledr.png)
+
+added a led for the c type usb too and as its 5v i used 2x 220 ohm res on serial as on bulk its cheaper , 330ohm might give me more brightness but why waste money?
+
+![done](assets/trc.png)
+
+done finally now i need the .step for the joysticks
+
+![grabcad](assets/3d_j.png)
+
+grabcad is the best i found the model in just a minute .
+
+added the 3d model for the joystick
+
+![lol](assets/jystck.png)
+
+lol mounted on the wrong direction lemme fix tht .
+
+![joystick](assets/jystckk.png)
+
+done but wait i didnt do the free cad thing today at all , ahhh ok gonna do tomorrow lemme export the pcb .step first 
+
+done!
+
+![sch](assets/schhh.png)
+
+it looooks tooo odd , the schematic led portion but like i care , it works , it is documented , it is separated and tagged thts all i care abt lol 
+
+**Total time spent: 5 hours**

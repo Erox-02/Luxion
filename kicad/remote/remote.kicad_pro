@@ -539,7 +539,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "remote.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -674,7 +674,7 @@
         "uuid": "f929a826-1add-41f1-859f-8d78be715d51"
       }
     ],
-    "used_designators": "usb1,H1-2,BT1,BZ1,L1,R1-2,D1-3,ST3-4,C1,J1-3,U1-2",
+    "used_designators": "#PWR12,#PWR15-16,usb1,H1-2,BT1,BZ1,L1,R1-2,R8-11,D1-3,ST3-4,C1,J1-3,U1-2",
     "variants": []
   },
   "sheets": [
