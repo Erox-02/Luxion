@@ -534,3 +534,54 @@ done!
 it looooks tooo odd , the schematic led portion but like i care , it works , it is documented , it is separated and tagged thts all i care abt lol 
 
 **Total time spent: 5 hours**
+
+# Sept 18 : 
+
+![jy](assets/jy.png)
+
+i placed th joystick wrong needa rotate tht .
+
+![done](assets/jyy.png)
+
+fixed it  lol . it was problamatic.
+
+![switch](assets/sww.png)
+
+added the joystick switch connection to sch now next is pcb .
+
+![don](assets/rmt.png)
+
+added to pcb too , now lets make the case for the remote
+
+i expanded the pcb , and tried to adjust atleast one screw hole for the joystick and this is my 5th attempt lol
+
+![screw screw](assets/screw^2.png)
+
+still cant do tht maybe the 7th time, thts my lucky number ,
+
+![13](assets/13.png)
+
+lol its the 13th time still got only one screw on right place ,
+
+![finally ](assets/fianlly.png)
+
+finally now both are on right places uf.
+
+![remote](assets/rmtt.png)
+
+thts how it looks i added the screws and not it looks good enough but the switchs are too small to even reach the surface of the cad ima gonna make .
+anyways it means lets start with the cad , no i dont wanna it sucks ahhh but i need to do tht anyways lol .
+
+made the gerber and exported the step now next is cad .....
+
+![started](assets/cadd.png)
+
+started now need to make another sketch and rm the pcb body volume 
+
+![cadd](assets/caddd.png)
+
+thts how it looks not i think i will go with minimal cover on the topside .
+
+ohh holy sht i forgot the usb c anyways gonna do tht tomorrow .
+
+**Total time spent: 4.5 hours**

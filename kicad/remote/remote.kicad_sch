@@ -4232,8 +4232,8 @@
 		(uuid "92e43082-09bb-4678-a4d5-cc839d177a4f")
 	)
 	(rectangle
-		(start 170.18 67.31)
-		(end 231.14 85.09)
+		(start 171.45 64.77)
+		(end 232.41 85.09)
 		(stroke
 			(width 0)
 			(type default)
@@ -4574,10 +4574,6 @@
 		(uuid "2d3bfb3b-dfa3-49fd-ac7e-30f430ab66d3")
 	)
 	(no_connect
-		(at 45.72 76.2)
-		(uuid "33e08694-85ee-4d41-8a88-08b511015cd3")
-	)
-	(no_connect
 		(at 86.36 63.5)
 		(uuid "3b444c90-c217-4e69-8ee1-d38fed1a8637")
 	)
@@ -4644,10 +4640,6 @@
 	(no_connect
 		(at 261.62 29.21)
 		(uuid "e46d7b1d-008e-466d-82c6-36ab4c6efca6")
-	)
-	(no_connect
-		(at 45.72 78.74)
-		(uuid "ea5227cc-be10-46bd-a534-05af20efd582")
 	)
 	(no_connect
 		(at 45.72 71.12)
@@ -5054,6 +5046,16 @@
 			(type default)
 		)
 		(uuid "36243b12-5fd3-44fd-960a-c9013eb5a987")
+	)
+	(wire
+		(pts
+			(xy 40.64 76.2) (xy 45.72 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38cfbb2a-9d5f-42cb-8d95-5e346774a9b0")
 	)
 	(wire
 		(pts
@@ -5614,6 +5616,16 @@
 			(type default)
 		)
 		(uuid "9065bace-e44e-46df-91dd-74cb85791813")
+	)
+	(wire
+		(pts
+			(xy 40.64 78.74) (xy 45.72 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90d353a3-5943-4038-ba34-dbac8c260912")
 	)
 	(wire
 		(pts
@@ -6185,6 +6197,16 @@
 		)
 		(uuid "ffdbcb3d-7627-4a7f-a4f4-2a602eb91e5d")
 	)
+	(label "IO13"
+		(at 40.64 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "01395cf3-038d-4973-bc6c-528dfe7799fd")
+	)
 	(label "J1y"
 		(at 40.64 38.1 0)
 		(effects
@@ -6255,6 +6277,16 @@
 		)
 		(uuid "5cecb1f8-c1ca-4089-a401-d9aa8b9b5c63")
 	)
+	(label "IO12"
+		(at 40.64 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "75bfce8b-6f13-4657-b2fd-13029e404db7")
+	)
 	(label "D+"
 		(at 41.91 60.96 0)
 		(effects
@@ -6305,6 +6337,16 @@
 		)
 		(uuid "9d7b06e9-05d0-465c-8c18-1bf3b5771515")
 	)
+	(label "IO12"
+		(at 199.39 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a33a85cd-7036-4f0a-a216-edf3fc055363")
+	)
 	(label "IO18"
 		(at 264.16 97.79 0)
 		(effects
@@ -6354,6 +6396,16 @@
 			(justify left bottom)
 		)
 		(uuid "d9de6d46-03cf-47f9-abc5-6788b4bcd1ba")
+	)
+	(label "IO13"
+		(at 217.17 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dd14493e-8c97-4cab-9010-51ff32d2525e")
 	)
 	(label "IO15"
 		(at 133.35 96.52 0)
@@ -6558,7 +6610,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 201.93 74.93 0)
+		(at 209.55 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6569,7 +6621,7 @@
 		(fields_autoplaced yes)
 		(uuid "129d0049-c688-4252-ae61-fa380a236235")
 		(property "Reference" "H2"
-			(at 204.47 73.6599 0)
+			(at 212.09 67.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6580,7 +6632,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 204.47 76.1999 0)
+			(at 212.09 69.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6591,7 +6643,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.5mm"
-			(at 201.93 74.93 0)
+			(at 209.55 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6602,7 +6654,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 74.93 0)
+			(at 209.55 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6613,7 +6665,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 201.93 74.93 0)
+			(at 209.55 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6729,7 +6781,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 179.07 74.93 0)
+		(at 176.53 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6740,7 +6792,7 @@
 		(fields_autoplaced yes)
 		(uuid "18ce4664-0850-4b0b-921c-474c3e9106fd")
 		(property "Reference" "H1"
-			(at 181.61 73.6599 0)
+			(at 179.07 67.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6751,7 +6803,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 181.61 76.1999 0)
+			(at 179.07 69.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6762,7 +6814,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.5mm"
-			(at 179.07 74.93 0)
+			(at 176.53 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6773,7 +6825,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 74.93 0)
+			(at 176.53 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6784,7 +6836,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 179.07 74.93 0)
+			(at 176.53 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8643,6 +8695,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 194.31 74.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a2f9b03-6ecf-474d-befb-1afcc1ffcb63")
+		(property "Reference" "H5"
+			(at 196.85 73.6599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 196.85 76.1999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm"
+			(at 194.31 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 194.31 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "remote"
+				(path "/f929a826-1add-41f1-859f-8d78be715d51"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 236.22 17.78 0)
 		(unit 1)
@@ -9578,6 +9706,82 @@
 			(project "remote"
 				(path "/f929a826-1add-41f1-859f-8d78be715d51"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 176.53 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a751ff9c-4fca-42dd-98c0-dd000c91cf6d")
+		(property "Reference" "H3"
+			(at 179.07 80.0099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 179.07 82.5499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm"
+			(at 176.53 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 176.53 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "remote"
+				(path "/f929a826-1add-41f1-859f-8d78be715d51"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -10738,6 +10942,82 @@
 			(project "remote"
 				(path "/f929a826-1add-41f1-859f-8d78be715d51"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 209.55 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd90550c-147f-480e-afe8-d9f09253c590")
+		(property "Reference" "H4"
+			(at 212.09 80.0099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 212.09 82.5499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm"
+			(at 209.55 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 209.55 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "remote"
+				(path "/f929a826-1add-41f1-859f-8d78be715d51"
+					(reference "H4")
 					(unit 1)
 				)
 			)
