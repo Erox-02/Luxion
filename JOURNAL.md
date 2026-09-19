@@ -585,3 +585,49 @@ thts how it looks not i think i will go with minimal cover on the topside .
 ohh holy sht i forgot the usb c anyways gonna do tht tomorrow .
 
 **Total time spent: 4.5 hours**
+
+# Sept 19:
+
+ok i just saw my joysticks arent alligned AHHHHHHHH , wtf and i did a bit work in the cad , it sucks as hell now i will need to redo it , ok lets fix tht atleast.
+
+![done](assets/sucks.png)
+
+this time i wont do tht err again .
+
+![fian](assets/sym.png)
+
+finally it looks symetric now !
+
+![antenna](assets/ant.png)
+
+after reading the datasheet , made a hole for the antenna , perfect size right?
+
+![pocket](assets/c.png)
+
+perfect position to make a hole lol , i made the hole for usb c too now need to add a pad to cover the other side hole too !
+
+![filled](assets/filled.png)
+
+ok filled the hole on the other side , now need to rm the extra fillin .
+
+![done](assets/dnee.png)
+
+now just need to make the upper cover for the remote and done easy peasy 
+
+![remote](assets/rm_c.png)
+
+doesnt look tht cool but if it works , it works .
+
+![done](assets/ddoonnee.png)
+
+now its comepletely done , added bosses to screw the pcb in too , now its done , just need to tune the hole for the pcb with the joystick a bit and done , easy lol
+
+![fixed](assets/ffixed.png)
+
+fixed the screw mountin prob so am i done ? already?
+
+![1](assets/rrmt.png)
+
+so this is the final look of the the remote , now gonna export stl .
+
+**Total time spent: 3 hours**
