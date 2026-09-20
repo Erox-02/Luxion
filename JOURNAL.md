@@ -631,3 +631,16 @@ fixed the screw mountin prob so am i done ? already?
 so this is the final look of the the remote , now gonna export stl .
 
 **Total time spent: 3 hours**
+
+# Sept 20 : Today we're codin 
+
+at first i changed the names frm mpu6500 to mpu6050 in the code , also the WHO_AM_I resister value frm the configureable 0x70 and 0x73 in mpu6500 to 0x68 in mpu6050 , oh man readin datasheets sucks . i am not gonna touch any other resisters anyways , even it doesnt even exist on mpu6050 , why clean tht up . Maybe i use a mpu6500 on v2 ? thts why i wont remove them . 
+
+Mizuketa another change , the temps values 
+
+![done](assets/fr.png)
+
+now wht shld i change ? ohhh the api's of the whole code lol forgot them all . 
+done thts all for today i am sleepy
+
+**Total time spent: 0.5 hours**

@@ -25,7 +25,7 @@ pub enum Mpuerr {
     Unready,
 }
 
-pub struct Mpu6500<SPI, CS> {
+pub struct Mpu6050<SPI, CS> {
     spi: SPI,
     cs: CS,
 }
@@ -41,13 +41,13 @@ pub struct ImuData {
     pub temp: f32,
 }
 
-impl<SPI, CS> Mpu6500<SPI, CS>
+impl<SPI, CS> Mpu6050<SPI, CS>
 where
     SPI: SpiBus<u8>,
     CS: embedded_hal::digital::OutputPin,
 {
     pub fn new(spi: SPI, cs: CS) -> Result<Self, Mpuerr> {
-        let mut mpu = Mpu6500 { spi, cs };
+        let mut mpu = Mpu6050 { spi, cs };
         mpu.write_reg(PWR_MGMT_1, 0x80)?;
         esp_hal::delay::Delay::new().delay_millis(100);
         mpu.write_reg(PWR_MGMT_1, 0x01)?;
@@ -55,7 +55,7 @@ where
         mpu.write_reg(0x1B, 0x00)?;
         mpu.write_reg(0x1C, 0x00)?;
         let who_am_i = mpu.read_reg(WHO_AM_I)?;
-        if who_am_i != 0x70 && who_am_i != 0x73 {
+        if who_am_i != 0x68 {
             return Err(Mpuerr::WrnDev(who_am_i));
         }
 
@@ -70,7 +70,7 @@ where
         let accel_y = (i16::from_be_bytes([buffer[2], buffer[3]]) as f32) / 16384.0;
         let accel_z = (i16::from_be_bytes([buffer[4], buffer[5]]) as f32) / 16384.0;
         let temp_raw = i16::from_be_bytes([buffer[6], buffer[7]]);
-        let temp = temp_raw as f32 / 333.87 + 21.0;
+        let temp = temp_raw as f32 / 340.0 + 36.53;
 
         let gyro_x = (i16::from_be_bytes([buffer[8], buffer[9]]) as f32) / 131.0;
         let gyro_y = (i16::from_be_bytes([buffer[10], buffer[11]]) as f32) / 131.0;

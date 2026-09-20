@@ -25,7 +25,7 @@ mod pid;
 mod motor;
 mod filter;
 
-use mpu::Mpu6500;
+use mpu::Mpu6050;
 use motor::MotorCtrl;
 use filter::ComFil;
 use pid::Pidctrl;
@@ -90,7 +90,7 @@ fn main() -> ! {
         channel4, channel5, channel6, channel7,
     );
 
-    let mut mpu = match Mpu6500::new(spi, cs) {
+    let mut mpu = match Mpu6050::new(spi, cs) {
         Ok(mpu) => {
             println!("imu init'ed");
             mpu
