@@ -11,3 +11,5 @@ kicad/remote/_*
 kicad/drone/lux/~*
 kicad/drone/lux/_*
 kicad/drone/lux/.hi*
+kicad/remote/lux/.*
+kicad/remote/lux/~*

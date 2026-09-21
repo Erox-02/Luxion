@@ -644,3 +644,56 @@ now wht shld i change ? ohhh the api's of the whole code lol forgot them all .
 done thts all for today i am sleepy
 
 **Total time spent: 0.5 hours**
+
+# Sept 21 : Found a major bug 
+
+today i looked at the pcb AND I FOUND A SEVERE BUG , i didnt connect the correct power pins , i mean 
+![pcb_err](assets/pcbbb.png)
+
+see this ,the gnd and gnd1 are separated as intended but the 5v and 5va are separated too thts a prob needa fix tht , i think i need diodes only thts enough lol
+
+thx god , i examined the pcb with a lot of time instead of just submittin it .
+
+ok now its getting complex the gpio0 portion , i thought i wd just use a diode between 3.3v and gnd BUT I AM USING ONLY 1 TPS so the 3.3v will be powered if usb plugged , so OHHHHHH I have a perfect solution , usb power , get lost , i can just use battery to power the mcu all the time and the usb will only do d+ and d- , am i not a freakin genious?
+
+AH but now idh the usb power detector lol
+
+Oh i can use the d+ as a detector i mean i can use a nand gate and done hell yeah 
+
+oh wait i can just use the usb's 5v why disturb my d+ , wait wait if its the case why dont i just use my current architecture but use the battery's 5va and use tht as the battery power and gnd is when usb plugged?
+
+ah lol , lemme change tht section
+
+![tps](assets/tps_fxd.png)
+
+fixed the tps portion now need to do same with the esp .No wait ,now the 3.3v is permanent , even worse , i cant use this now 
+
+![fool](assets/fool.png)
+
+so i cant use my utterly fool design , hm .
+
+LOL i just read the datasheet again and it said , GPIO0 is pulled high default but if some brat wanna pull it up with e res , no prob lol.
+
+i just never needed tht thing ahhhhhh .
+
+maybe i will add a led for the usb connection . but nah not now , i am already tired readin datasheets for a hour.
+
+![fixed](assets/fiixed.png)
+
+now needa fix the pcb .
+
+![gnd1](assets/gnd.png)
+
+ohh hell , its such a mess 
+
+![fixed](assets/fiixxed.png)
+
+fixed this mess a lot uf.
+
+![finally](assets/fxd.png)
+
+finally routed everything now just need to export the gerbers again uf .
+
+ok done now i can push and sleep finally .
+
+**Total time spent: 2.5 hours**

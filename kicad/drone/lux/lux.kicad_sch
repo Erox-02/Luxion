@@ -4839,16 +4839,16 @@
 		(uuid "daff7a4f-882f-4134-ba68-5239953732f4")
 	)
 	(junction
-		(at 209.55 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0382cbbf-c4f2-450d-81c6-4fd97e708bb5")
-	)
-	(junction
 		(at 250.19 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "047a2566-41fe-4493-9361-a611d2719620")
+	)
+	(junction
+		(at 213.36 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "054e815f-7ab5-4b53-a4e8-de56bf30a6d8")
 	)
 	(junction
 		(at 158.75 82.55)
@@ -4903,12 +4903,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "20d06af0-29d9-4f60-aa51-5626ab664d39")
-	)
-	(junction
-		(at 99.06 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2db6b576-630c-47e6-8a0f-6f2d72b53e57")
 	)
 	(junction
 		(at 199.39 88.9)
@@ -5340,16 +5334,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 83.82) (xy 105.41 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00045df2-1631-41eb-b4da-c6fae580cc4f")
-	)
-	(wire
-		(pts
 			(xy 213.36 38.1) (xy 213.36 39.37)
 		)
 		(stroke
@@ -5540,7 +5524,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 39.37) (xy 209.55 39.37)
+			(xy 207.01 39.37) (xy 213.36 39.37)
 		)
 		(stroke
 			(width 0)
@@ -5840,13 +5824,13 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 39.37) (xy 209.55 39.37)
+			(xy 97.79 83.82) (xy 105.41 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "36243b12-5fd3-44fd-960a-c9013eb5a987")
+		(uuid "3c26f800-fd0b-4286-8057-7330db1a5615")
 	)
 	(wire
 		(pts
@@ -5927,16 +5911,6 @@
 			(type default)
 		)
 		(uuid "45f8f1cd-1fd3-4417-87b3-5dbde36ea1d9")
-	)
-	(wire
-		(pts
-			(xy 97.79 83.82) (xy 99.06 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49854655-33b5-476f-a234-2c117277e7d6")
 	)
 	(wire
 		(pts
@@ -6340,7 +6314,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 33.02) (xy 185.42 33.02)
+			(xy 176.53 33.02) (xy 186.69 33.02)
 		)
 		(stroke
 			(width 0)
@@ -8996,83 +8970,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 185.42 33.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2391840e-8b29-408e-9aa9-7a1c34aad39e")
-		(property "Reference" "#PWR010"
-			(at 185.42 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 185.42 34.544 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 185.42 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 185.42 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f0068e87-c5ec-4824-b9e9-ce64c7f16c05")
-		)
-		(instances
-			(project "lux"
-				(path "/f3a45523-230c-48ab-a937-ad3e7df8831b"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND1")
 		(at 255.27 24.13 180)
 		(unit 1)
@@ -9541,83 +9438,6 @@
 			(project "lux"
 				(path "/f3a45523-230c-48ab-a937-ad3e7df8831b"
 					(reference "USBC1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND1")
-		(at 105.41 83.82 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2baf5d0f-1d08-483c-a4f1-d5ebb6cdf83c")
-		(property "Reference" "#PWR014"
-			(at 105.41 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND1"
-			(at 109.474 83.82 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 105.41 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 105.41 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 105.41 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5f351389-228a-4d46-819e-32cfcd8980c7")
-		)
-		(instances
-			(project "lux"
-				(path "/f3a45523-230c-48ab-a937-ad3e7df8831b"
-					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -10942,6 +10762,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND1")
+		(at 105.41 83.82 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d6e7fb8-b68e-4eaa-98fb-f7d7e91e4be7")
+		(property "Reference" "#PWR036"
+			(at 105.41 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND1"
+			(at 105.41 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 105.41 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3210349b-003f-4e00-8362-3234059f26eb")
+		)
+		(instances
+			(project "lux"
+				(path "/f3a45523-230c-48ab-a937-ad3e7df8831b"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5VA")
 		(at 201.93 81.28 0)
 		(unit 1)
@@ -11571,83 +11469,6 @@
 			(project "lux"
 				(path "/f3a45523-230c-48ab-a937-ad3e7df8831b"
 					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 209.55 39.37 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "86127b96-105c-4b93-9c4b-3fa9b85cc19c")
-		(property "Reference" "#PWR04"
-			(at 209.55 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 209.55 43.688 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 209.55 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 209.55 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 209.55 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b52cb17a-bd8e-4040-87e9-b638c03628da")
-		)
-		(instances
-			(project "lux"
-				(path "/f3a45523-230c-48ab-a937-ad3e7df8831b"
-					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -13308,6 +13129,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5VA")
+		(at 213.36 39.37 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cffde156-3617-40a5-919e-112424da8375")
+		(property "Reference" "#PWR034"
+			(at 213.36 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5VA"
+			(at 213.36 43.434 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VA\""
+			(at 213.36 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "43865002-2323-414c-81e2-7b6561d622d6")
+		)
+		(instances
+			(project "lux"
+				(path "/f3a45523-230c-48ab-a937-ad3e7df8831b"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 172.72 36.83 90)
 		(unit 1)
@@ -14057,6 +13955,83 @@
 	)
 	(symbol
 		(lib_id "power:+5VA")
+		(at 186.69 33.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ef949241-75d4-48b6-a421-19d83d9c08a9")
+		(property "Reference" "#PWR035"
+			(at 186.69 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5VA"
+			(at 186.69 34.544 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VA\""
+			(at 186.69 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "295e0d4e-4c7e-4dca-8264-f8b39d89de69")
+		)
+		(instances
+			(project "lux"
+				(path "/f3a45523-230c-48ab-a937-ad3e7df8831b"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5VA")
 		(at 250.19 110.49 0)
 		(unit 1)
 		(body_style 1)
@@ -14429,84 +14404,6 @@
 			(project "lux"
 				(path "/f3a45523-230c-48ab-a937-ad3e7df8831b"
 					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 99.06 83.82 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f6f8cda0-80e7-4704-be67-c58c7139bed4")
-		(property "Reference" "#PWR013"
-			(at 99.06 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 99.06 78.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 99.06 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 99.06 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b4051b81-58c2-4a0d-9d01-2bddaf5061f6")
-		)
-		(instances
-			(project "lux"
-				(path "/f3a45523-230c-48ab-a937-ad3e7df8831b"
-					(reference "#PWR013")
 					(unit 1)
 				)
 			)
