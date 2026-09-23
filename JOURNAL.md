@@ -697,3 +697,23 @@ finally routed everything now just need to export the gerbers again uf .
 ok done now i can push and sleep finally .
 
 **Total time spent: 2.5 hours**
+
+# Sept 22 :
+
+As i thought the remote also has the same prob lol
+
+![lol](assets/llol.png)
+
+now needa fix tht , so again if i do this , the remote will be battery mandetory but idh any place for battery on the case , maybe i will add one small battery and mount it somewhere like under the remote , not a prob . 
+
+Holy shit , my laptop got shut down in mid and gave me casps  specific err , like youre dead . i was scared and teared down the whole laptop down , and recovered it now the "s" button is acting odd and touchpad not workin ahhhhhhhh tht s is jusst getting everywhere ahhh . ok back to work . 
+
+How the hell can i work with this piece of shit , S is just gettin spammed .
+
+i cant even use kicad in peace ahhhh , i thought after fixing the pcb , i wd supgrasde the readme but its not possible . 
+
+ok fixed it but with the cost of my steak of 18 days and a external keyboard ah .
+
+so wht shld i do now? ok enough today i basically did nothin . 
+
+**Total time spent: 1 hours**
