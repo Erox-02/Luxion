@@ -717,3 +717,36 @@ ok fixed it but with the cost of my steak of 18 days and a external keyboard ah 
 so wht shld i do now? ok enough today i basically did nothin . 
 
 **Total time spent: 1 hours**
+
+# Sept 23 : 
+
+Ok now i am goin to fix tht err
+
+![done](assets/sc.png)
+
+done , fixed the power prob now imma gonna reexamine it.
+
+also for my led , i mean the usb led , it is powered by batter , i mean no battery , no usb led lol ok good easter egg not gonna fix it .
+
+![done](assets/dune'.png)
+
+done now i think the remote is ready i can just export it . 
+
+![done](assets/zipped.png)
+
+ok now lets check the drone's schematic AGAIN .
+
+wait i just realized , i used diff gnd and diff live for the led on remote lol .
+
+wait my kicad definately have somekind of prob , it isnt saving as it did .
+
+![fixed](assets/utpist.png)
+
+ok so i finally fixed this utterly disgraceful piece of sht so now i needa export again and we are ready to go .
+
+done
+
+so now i think i will go for the readme now , then ship it .
+
+ok so readme now .
+

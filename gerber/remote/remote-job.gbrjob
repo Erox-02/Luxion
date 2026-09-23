@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "10.0.6"
     },
-    "CreationDate": "2026-09-18T14:01:53+05:30"
+    "CreationDate": "2026-09-23T13:14:43+05:30"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -58,6 +58,16 @@
     {
       "Path": "remote-B_Cu.gbr",
       "FileFunction": "Copper,L4,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "remote-F_Adhesive.gbr",
+      "FileFunction": "Glue,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "remote-B_Adhesive.gbr",
+      "FileFunction": "Glue,Bot",
       "FilePolarity": "Positive"
     },
     {

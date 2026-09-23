@@ -27,25 +27,46 @@ also the  fcstd file is tagged here :
 
 some photos for the frame :
 
-![](assets/side.png)
+![side view](assets/side.png)
 ---
-![](assets/top.png)
+![top view](assets/top.png)
 ---
-![]()
+![with pcb](assets/3dd.png)
 ---
 
 #### Remote
 
+You can download the 3d model frm here :
+
+[DOWNLOAD THE 3d MODEL](3d/remote-body.3mf)
+[DOWNLOAD THE 3d MODEL](3d/remote-lid.3mf)
+
+===
+
+also the  fcstd file is tagged here :
+
+[FCSTD](3d/remote.FCStd)
+
+Some phots of the remote :
+---
+![top](assets/rrmt.png)
+---
+![case open](assets/caddd.png)
+---
+
 ### PCB
+
+#### drone
+
+#### remote
 
 ### Schematic
 
-## Remote 
+#### drone
 
+#### remote
 
 ## Firmware
-
-> still on the way but lemme add the progress here
 
 I have written likely most of the firmware already before getting approved or building the physical drone .
 
@@ -87,7 +108,6 @@ This project uses:
 > It was the reference for my frame i had to rebuild it .
 
 ## JLCPCB order
-
 
 > the price might fluctuate over time
 
