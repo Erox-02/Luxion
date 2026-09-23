@@ -1,69 +1,53 @@
 # Luxion 
 
 Luxion is a custom made drone made with rust unlike standard c++ drones .
-It uses a custom pcb, ESP32-S3-WROOM-1U , MPU6500-IMU(breakout as it costs less than the bare), four motor drivers, and a 1S LiPo to power the drone.
-The firmware is still on the way , gonna finish it by next week .
+It uses a custom pcb, ESP32-S3-WROOM-1U , MPU6500-IMU(breakout as it costs less than the bare), four motor drivers, and a 1S LiPo to power the drone. Also a remote with
+same esp module, 2x joysticks connectin to the drone via esp-now .
 
 ## Function
 
-It is a remote(phone/remote) controlled drone made from absolutely nothing , with 8520 motors and 65mm props it can easily take off with 2+ thrust-mass ratio . It is ideal for mini quadcoptor with mountable sensors ,as it has a lot of gpio's left any sensor can be easily mounted if not too heavy .
+It is a remote controlled drone made from absolutely nothing , with 8520 motors and 65mm props it can easily take off with 2+ thrust-mass ratio . It is ideal for mini quadcoptor with mountable sensors ,as it has a lot of gpio's left any sensor can be easily mounted if not too heavy .
 
 ## Why it exists
 
-from when i saw the pluto x  , a programable drone with esp 12f and stm32 , i always wanted to make one myself but better and cheaper thts why luxion exists today. I used esp32 instead of 2 mcu's , gonna use esp-now instead of wifi and a lot but the best part i didnt rely on the pluto x's
-architecture for luxion but made my whole own .
+from when i saw the pluto x  , a programable drone with esp 12f and stm32 , i always wanted to make one myself but better and cheaper thts why luxion exists today. I used esp32-s3 instead of 2 mcu's , used esp-now instead of wifi and a lot but the best part i didnt rely on the pluto x's architecture at all .
 
 ## Design
-
+---
 ### 3D Model
 
-[download](3d/luxion_frame.stl)
+#### Drone
 
-also pics here :
+You can download the 3d model frm here :
+[DOWNLOAD THE 3d MODEL](3d/lux.3mf)
 
-![3dmod](assets/3d_mod.png)
+also the  fcstd file is tagged here :
+
+[FCSTD](3d/lux.FCStd)
+
+some photos for the frame :
+
+![](assets/side.png)
 ---
-![3dmod](assets/model.png)
+![](assets/top.png)
 ---
+![]()
+---
+
+#### Remote
 
 ### PCB
 
-![pcb](assets/pcb_v6.png)
-
 ### Schematic
-
-![schematic](assets/sch_v4.png)
-
-### Wiring
-
-io4 -> bl1 ina(cw)
-io5 -> bl1 inb(cw)
-io6 -> bl2 ina(ccw)
-io7 -> bl2 inb(ccw)
-io15 -> bl3 ina(ccw)
-io16 -> bl3 inb(ccw)
-io17 -> bl4 ina (cw)
-io18 -> bl4 inb (cw)
-io19 -> d-
-io20 -> d+
-io46 -> int(mpu)
-io10 -> ncs
-io11 -> sda
-io12 -> scl
-io13 -> ad0
-
-done thts for the mpu 
 
 ## Remote 
 
-The remote's pcb is on the ./kicad/remote dir .
-It currently uses the same power regualtion and mcu as the drone but it wasnt just merely copy pasted also the current bom doesnt have the joysticks , as i have mine already i didnt add tht to bom .
 
 ## Firmware
 
 > still on the way but lemme add the progress here
 
-I have written likely 60% of the firmware already before getting approved or building the physical drone .
+I have written likely most of the firmware already before getting approved or building the physical drone .
 
 Current stack have :
 [erox@archbtw luxion]$ tree src 
@@ -71,19 +55,18 @@ src
 ├── filter.rs
 ├── main.rs
 ├── motor.rs
-├── mpu.rs          // needs change currently
+├── mpu.rs          
 └── pid.rs
 
 1 directory, 5 files
 
-the mpu.rs is a custom driver(really basic) for the mpu6500 , the filte* take mpu's data(gyro and acc) then converts tht into yaw roll and pitch , the moto* haved ldec and controlls the motors state , the pid is just pid controller nothing more , and the main.rs integrates them all and runs them when needed either in loop or once .
+the mpu.rs is a custom driver(really basic) for the mpu6050 , the filte* take mpu's data(gyro and acc) then converts tht into yaw roll and pitch , the moto* haved ldec and controlls the motors state , the pid is just pid controller nothing more , and the main.rs integrates them all and runs them when needed either in loop or once .
 
 ### Whats remainin?
 
 - esp now impl
 - build.rs
 - proper pid vals and calibration
-- bl5612 calibration 
 
 ## How to assemble
 
@@ -96,14 +79,15 @@ also You might need to solder a jst socket according to your battery
 This project uses:
 
 - KiCad
-- Blender for 3D renders
+- Freecad for 3D renders
 - A opensource frame from the link below
 
 [link](https://www.thingiverse.com/thing:5013951)
 
+> It was the reference for my frame i had to rebuild it .
+
 ## JLCPCB order
 
-![order](assets/jlc.png)
 
 > the price might fluctuate over time
 
