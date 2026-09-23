@@ -183,28 +183,29 @@ This project uses:
 ## Bill of Materials
 
 Part,Quantity,Unit Price (INR),Unit Price (USD),Total (INR),Total (USD),Link
-8520 Magnetic Micro Coreless Motors – 2xCW + 2xCCW pack,1,459.00,4.83,459.00,4.83,https://robu.in/product/8520-magnetic-micro-coreless-motor-for-micro-quadcopters-2xcw-2xccw/
-100kΩ 0603 resistor (MOQ),28,0.37,0.00,10.36,0.11,https://robu.in/product/100k-ohm-1-4w-0603-surface-mount-chip-resistor-pack-of-100/
-ESP32-S3-WROOM-1U-N16R8,2,469.00,4.94,938.00,9.87,https://robu.in/product/espressif-esp32-s3-wroom-1u-n16r8-module/
-100nF 0402 X7R capacitor (MOQ),25,0.40,0.00,10.00,0.11,https://robu.in/product/im02b104k250nb-fh-smd-multilayer-ceramic-capacitor-0-1-%c2%b5f100-nf-25-v-0402-1005-metric-%c2%b1-10-x7r-cl/
-BL5612-BL H-Bridge Motor Driver IC,4,31.00,0.33,124.00,1.31,https://robu.in/product/bl5612-blshanghai-belling-h-bridge-motor-driver-ic-1-5a-sop-8/
-Bonka 3.7V 600mAh 25C 1S LiPo,1,499.00,5.25,499.00,5.25,https://robu.in/product/bonka-3-7v-600mah-25c-1s-lithium-polymer-battery-pack/
-1N4148WS SOD-323 diode (MOQ),13,0.77,0.01,10.01,0.11,https://robu.in/product/1n4148ws-sod-323-805-diodereel-of-3000/
-150mm FrSky IPEX4 antenna,2,42.00,0.44,84.00,0.88,https://robu.in/product/150mm-frsky-receiver-antenna-new-version-ipex4/
-22µF 16V 1206 X5R capacitor (MOQ),25,0.40,0.00,10.00,0.11,https://robu.in/product/1206x226k160ct-samsung-smd-multilayer-ceramic-capacitor-22-%c2%b5f-16-v-1206-3216-metric-%c2%b1-10-x5r/
-10µF 10V 0805 X5R capacitor (MOQ),20,0.52,0.01,10.40,0.11,https://robu.in/product/cs2012x5r106m100nre-samwha-10-%c2%b5f-10v-x5r-0805-multilayer-ceramic-capacitors-mlcc-smd-smt-rohs/
-SRN8040-1R5Y 1.5µH 7A inductor,2,23.00,0.24,46.00,0.48,https://robu.in/product/srn8040-1r5y-bourns-srn8040-1r5y-power-inductor-smd-1-5-%c2%b5h-7-a-shielded-8-2-a-srn8040-series/
-560kΩ 0603 resistor (MOQ),28,0.36,0.00,10.08,0.11,https://robu.in/product/erjp03j564v-panasonic-200mw-thick-film-resistors-%c2%b15-%c2%b1200ppm-%e2%84%83-560k%cf%89-0603-chip-resistor-surface-mount-rohs/
-JST 2P Male + Female Terminal Connection Socket,1,30.00,0.32,30.00,0.32,https://robu.in/product/jst-2p-malefemale-terminal-connection-socket/
-MPU-6050 3-Axis Accelerometer + Gyro,1,151.00,1.59,151.00,1.59,https://robu.in/product/mpu-6050-gyro-sensor-2-accelerometer/
-TPS63020DSJR,2,124.00,1.31,248.00,2.61,https://robu.in/product/tps63020dsjr-texas-instruments-boost-type-adjustable-1-2v5-5v-1-8v5-5v-vson-14-ep3x4-dc-dc-converters-rohs/
-3V Active Electromagnetic Buzzer – pack of 5,1,18.00,0.19,18.00,0.19,https://robu.in/product/3v-active-electromagnetic-buzzer-pack-of-5/
-Luxion PCB (Y6),1,389.50,4.10,389.50,4.10,JLCPCB
-Remote PCB (Y7),5,76.00,0.80,380.00,4.00,JLCPCB
-Luxion frame – 3201PA-F Nylon,1,224.20,2.36,224.20,2.36,JLC3DP
-TOTAL,,,,3633.55,38.25,
-
-
-
+MPU-6050 3-Axis Accelerometer + Gyro,1,151.00,,,151.00,,https://robu.in/product/mpu-6050-gyro-sensor-2-accelerometer/
+PS2 Joystick Module Breakout Sensor,2,39.00,,,78.00,,https://robu.in/product/joystick-module-ps2-breakout-sensor/
+8520 Magnetic Micro Coreless Motors – 2xCW + 2xCCW pack,1,459.00,,,459.00,,https://robu.in/product/8520-magnetic-micro-coreless-motor-for-micro-quadcopters-2xcw-2xccw/
+100kΩ 0603 resistor (MOQ),30,0.34,,,10.20,,https://robu.in/product/100k-ohm-1-4w-0603-surface-mount-chip-resistor-pack-of-100/
+220Ω 0603 resistor (MOQ),30,0.34,,,10.20,,https://robu.in/product/220-ohm-chip-resistor-1-4w-0603-surface-mount-pack-of-100/
+3V Active Electromagnetic Buzzer – pack of 5,1,21.00,,,21.00,,https://robu.in/product/3v-active-electromagnetic-buzzer-pack-of-5/
+1206 Surface Mount LED White (MOQ),10,1.07,,,10.70,,https://robu.in/product/1206-surface-mount-led-white-50-pcs/
+1206 Surface Mount LED Yellow (MOQ),25,0.40,,,10.00,,https://robu.in/product/1206-surface-mount-led-yellow-50pcs/
+BMP180 Digital Barometric Pressure Sensor Module,1,33.00,,,33.00,,https://robu.in/product/bmp180-digital-barometric-pressure-sensor-module/
+LWC-2400-DIP-03 (V1.0) Dipole Antenna 2.4 GHz,2,132.00,,,264.00,,https://robu.in/product/lwc-2400-dip-03-v1-0-dipole-antennas-2-4-ghz/
+Bonka 3.7V 600mAh 25C 1S LiPo,1,499.00,,,499.00,,https://robu.in/product/bonka-3-7v-600mah-25c-1s-lithium-polymer-battery-pack/
+22µF 16V 1206 X5R capacitor (MOQ),28,0.36,,,10.08,,https://robu.in/product/1206x226k160ct-samsung-smd-multilayer-ceramic-capacitor-22-%c2%b5f-16-v-1206-3216-metric-%c2%b1-10-x5r/
+100nF 0402 X7R capacitor (MOQ),100,0.10,,,10.00,,https://robu.in/product/im02b104k250nb-fh-smd-multilayer-ceramic-capacitor-0-1-%c2%b5f100-nf-25-v-0402-1005-metric-%c2%b1-10-x7r-cl/
+10kΩ 0603 resistor (MOQ),15,0.68,,,10.20,,https://robu.in/product/ac0603fr-0710kl-yageo-res-thick-film-0603-10k-ohm-1-0-1w1-10w-%c2%b1100ppm-c-pad-smd-t-r-automotive-aec-q200/
+ESP32-S3-WROOM-1U-N16R8,2,469.00,,,938.00,,https://robu.in/product/espressif-esp32-s3-wroom-1u-n16r8-module/
+10µF 10V 0805 X5R capacitor (MOQ),22,0.47,,,10.34,,https://robu.in/product/cs2012x5r106m100nre-samwha-10v-x5r-0805-multilayer-ceramic-capacitors-mlcc-smd-smt-rohs/
+SRN8040-1R5Y 1.5µH 7A inductor,1,23.00,,,23.00,,https://robu.in/product/srn8040-1r5y-bourns-srn8040-1r5y-power-inductor-smd-1-5-%c2%b5h-7-a-shielded-8-2-a-srn8040-series/
+BL5612-BL H-Bridge Motor Driver IC,4,41.00,,,164.00,,https://robu.in/product/bl5612-blshanghai-belling-h-bridge-motor-driver-ic-1-5a-sop-8/
+560kΩ 0603 resistor (MOQ),28,0.36,,,10.08,,https://robu.in/product/erjp03j564v-panasonic-200mw-thick-film-resistors-%c2%b15-%c2%b1200ppm-%e2%84%83-560k%cf%89-0603-chip-resistor-surface-mount-rohs/
+5.6kΩ 0603 resistor (MOQ),28,0.37,,,10.36,,https://robu.in/product/erj3geyj562v-panasonic-100mw-thick-film-resistors-%c2%b15-%c2%b1200ppm-%e2%84%83-5-6k%cf%89-0603-chip-resistor-surface-mount-rohs/
+TYPE-C-31-M-12-Hroparts 5A 1 16P Female Type-C SMD USB Connector,2,26.00,,,52.00,,https://robu.in/product/type-c-31-m-12-hroparts-5a-1-16p-female-type-c-smd-usb-connectors-rohs/
+JST 2P Male + Female Terminal Connection Socket,1,30.00,,,30.00,,https://robu.in/product/jst-2p-malefemale-terminal-connection-socket/
+TPS63020DSJR,2,178.00,,,356.00,,https://robu.in/product/tps63020dsjr-texas-instruments-boost-type-adjustable-1-2v5-5v-1-8v5-5v-vson-14-ep3x4-dc-dc-converters-rohs/
+TOTAL,,,,3170.16,,
 
 
