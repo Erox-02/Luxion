@@ -54,23 +54,91 @@ Some phots of the remote :
 ![case open](assets/caddd.png)
 ---
 
+### Schematic
+---
+#### drone
+battery :
+
+![](assets/batt-lux.png)
+
+motor drivers :
+
+![](assets/bl-lux.png)
+
+mpu6050:
+
+![](assets/mpu-lux.png)
+
+barometer :
+
+![](assets/bmp-lux.png)
+
+mcu(esp32-s3) :
+
+![](assets/esp-lux.png)
+
+usb-c :
+
+![](assets/usb-lux.png)
+
+step up (tps63020) :
+
+![](assets/tps-sch.png)
+
+motors :
+
+![](assets/motors-lux.png)
+
+---
+
+#### remote
+---
+mcu :
+
+![](assets/esp-sch.png)
+
+joystick :
+
+![](assets/joy-rm.png)
+
+switchs :
+
+![](assets/sw-rm.png)
+
+usb c :
+
+![](assets/rm-usb.png)
+
+
 ### PCB
 
 #### drone
 
+Heres the pcb :
+
+![](assets/pcb-fin-lux.png)
+
+and 3d img :
+
+![](assets/pcb-3d-lux.png)
+
 #### remote
 
-### Schematic
 
-#### drone
+Heres the pcb :
 
-#### remote
+![](assets/pcb-fin-rm.png)
+
+and 3d img :
+
+![](assets/pcb-3d-rm.png)
 
 ## Firmware
 
 I have written likely most of the firmware already before getting approved or building the physical drone .
 
 Current stack have :
+```
 [erox@archbtw luxion]$ tree src 
 src
 ├── filter.rs
@@ -80,6 +148,7 @@ src
 └── pid.rs
 
 1 directory, 5 files
+```
 
 the mpu.rs is a custom driver(really basic) for the mpu6050 , the filte* take mpu's data(gyro and acc) then converts tht into yaw roll and pitch , the moto* haved ldec and controlls the motors state , the pid is just pid controller nothing more , and the main.rs integrates them all and runs them when needed either in loop or once .
 

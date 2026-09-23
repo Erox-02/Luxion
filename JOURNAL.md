@@ -749,4 +749,7 @@ done
 so now i think i will go for the readme now , then ship it .
 
 ok so readme now .
+    
+README.md done
 
+**Total time spent: 4 hours**

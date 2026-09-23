@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "10.0.6"
     },
-    "CreationDate": "2026-09-21T23:39:06+05:30"
+    "CreationDate": "2026-09-23T20:19:14+05:30"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -58,6 +58,16 @@
     {
       "Path": "lux-B_Cu.gbr",
       "FileFunction": "Copper,L4,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "lux-F_Adhesive.gbr",
+      "FileFunction": "Glue,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "lux-B_Adhesive.gbr",
+      "FileFunction": "Glue,Bot",
       "FilePolarity": "Positive"
     },
     {
