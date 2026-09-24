@@ -753,3 +753,20 @@ ok so readme now .
 README.md done
 
 **Total time spent: 4 hours**
+
+# Sept 24 : 
+
+
+Today i will add the final imgs 
+
+![](assets/pcb-3d-rm.png)
+
+![](assets/pcb-3d-lux.png)
+
+![](assets/pcb-3d-rm.png)
+
+![](assets/pcb-fin-rm.png)
+
+ok looks like its good already now i can just hope for the reviewer to give it an approve .
+
+**Total time spent: 1 hours**
