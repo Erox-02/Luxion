@@ -1,4 +1,4 @@
-# Luxion 
+# Luxion
 
 Luxion is a custom made drone made with rust unlike standard c++ drones .
 It uses a custom pcb, ESP32-S3-WROOM-1U , MPU6500-IMU(breakout as it costs less than the bare), four motor drivers, and a 1S LiPo to power the drone. Also a remote with
@@ -14,6 +14,7 @@ from when i saw the pluto x  , a programable drone with esp 12f and stm32 , i al
 
 ## Design
 ---
+
 ### 3D Model
 
 #### Drone
@@ -27,11 +28,14 @@ also the  fcstd file is tagged here :
 
 some photos for the frame :
 
-![side view](assets/side.png)
----
-![top view](assets/top.png)
----
-![with pcb](assets/3dd.png)
+<table>
+  <tr>
+    <td><img src="assets/side.png" width="500" alt="side view"></td>
+    <td><img src="assets/top.png" width="500" alt="top view"></td>
+    <td><img src="assets/3dd.png" width="500" alt="with pcb"></td>
+  </tr>
+</table>
+
 ---
 
 #### Remote
@@ -48,67 +52,53 @@ also the  fcstd file is tagged here :
 [FCSTD](3d/remote.FCStd)
 
 Some phots of the remote :
----
-![top](assets/rrmt.png)
----
-![case open](assets/caddd.png)
+
+<table>
+  <tr>
+    <td><img src="assets/rrmt.png" width="500" alt="top"></td>
+    <td><img src="assets/caddd.png" width="500" alt="case open"></td>
+  </tr>
+</table>
+
 ---
 
 ### Schematic
 ---
+
 #### drone
-battery :
 
-![](assets/batt-lux.png)
-
-motor drivers :
-
-![](assets/bl-lux.png)
-
-mpu6050:
-
-![](assets/mpu-lux.png)
-
-barometer :
-
-![](assets/bmp-lux.png)
-
-mcu(esp32-s3) :
-
-![](assets/esp-lux.png)
-
-usb-c :
-
-![](assets/usb-lux.png)
-
-step up (tps63020) :
-
-![](assets/tps-sch.png)
-
-motors :
-
-![](assets/motors-lux.png)
+<table>
+  <tr>
+    <td><img src="assets/batt-lux.png" width="500" alt="battery"></td>
+    <td><img src="assets/bl-lux.png" width="500" alt="motor drivers"></td>
+    <td><img src="assets/mpu-lux.png" width="500" alt="mpu6050"></td>
+  </tr>
+  <tr>
+    <td><img src="assets/bmp-lux.png" width="500" alt="barometer"></td>
+    <td><img src="assets/esp-lux.png" width="500" alt="mcu(esp32-s3)"></td>
+    <td><img src="assets/usb-lux.png" width="500" alt="usb-c"></td>
+  </tr>
+  <tr>
+    <td><img src="assets/tps-sch.png" width="500" alt="step up (tps63020)"></td>
+    <td><img src="assets/motors-lux.png" width="500" alt="motors"></td>
+  </tr>
+</table>
 
 ---
 
 #### remote
 ---
-mcu :
 
-![](assets/esp-sch.png)
-
-joystick :
-
-![](assets/joy-rm.png)
-
-switchs :
-
-![](assets/sw-rm.png)
-
-usb c :
-
-![](assets/rm-usb.png)
-
+<table>
+  <tr>
+    <td><img src="assets/esp-sch.png" width="500" alt="mcu"></td>
+    <td><img src="assets/joy-rm.png" width="500" alt="joystick"></td>
+  </tr>
+  <tr>
+    <td><img src="assets/sw-rm.png" width="500" alt="switchs"></td>
+    <td><img src="assets/rm-usb.png" width="500" alt="usb c"></td>
+  </tr>
+</table>
 
 ### PCB
 
@@ -116,22 +106,23 @@ usb c :
 
 Heres the pcb :
 
-![](assets/pcb-fin-lux.png)
-
-and 3d img :
-
-![](assets/pcb-3d-lux.png)
+<table>
+  <tr>
+    <td><img src="assets/pcb-fin-lux.png" width="500" alt="drone pcb"></td>
+    <td><img src="assets/pcb-3d-lux.png" width="500" alt="drone pcb 3d"></td>
+  </tr>
+</table>
 
 #### remote
 
-
 Heres the pcb :
 
-![](assets/pcb-fin-rm.png)
-
-and 3d img :
-
-![](assets/pcb-3d-rm.png)
+<table>
+  <tr>
+    <td><img src="assets/pcb-fin-rm.png" width="500" alt="remote pcb"></td>
+    <td><img src="assets/pcb-3d-rm.png" width="500" alt="remote pcb 3d"></td>
+  </tr>
+</table>
 
 ## Firmware
 
@@ -161,7 +152,7 @@ the mpu.rs is a custom driver(really basic) for the mpu6050 , the filte* take mp
 ## How to assemble
 
 Solder all the components from bom(except the antenna) on the pcb ,
-also You might need to solder a jst socket according to your battery 
+also You might need to solder a jst socket according to your battery
 (more detailed explanation after i do it myself first lol)
 
 ## Credits
@@ -208,5 +199,3 @@ This project uses:
 | JST 2P Male + Female Terminal Connection Socket | 1 | 30.00 | — | 30.00 | — | https://robu.in/product/jst-2p-malefemale-terminal-connection-socket/ |
 | TPS63020DSJR | 2 | 178.00 | — | 356.00 | — | https://robu.in/product/tps63020dsjr-texas-instruments-boost-type-adjustable-1-2v5-5v-1-8v5-5v-vson-14-ep3x4-dc-dc-converters-rohs/ |
 | **TOTAL** | | | | **3170.16** | | |
-
-
