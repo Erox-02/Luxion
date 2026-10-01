@@ -769,4 +769,18 @@ Today i will add the final imgs
 
 ok looks like its good already now i can just hope for the reviewer to give it an approve .
 
+**Total time spent: 0.1 hours**
+
+# Sept 30 :
+
+yo , finally got review'd , it was rejected though but fine , lemme fix the probs , he said to organize the readme :
+
+okk done i js saw a cool ref and tried tht now my readme is fine too , also adjusted the pcb a bit so the silkscreen doesnt go out of board , idk if there is anyother issue. also fixed the bom inside the readme .
+
+done :
+
+![](assets/image.png)
+
+rest is upto reviewer !!
+
 **Total time spent: 1 hours**
