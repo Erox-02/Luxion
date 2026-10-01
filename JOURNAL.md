@@ -769,7 +769,7 @@ Today i will add the final imgs
 
 ok looks like its good already now i can just hope for the reviewer to give it an approve .
 
-**Total time spent: 0.1 hours**
+**Total time spent: 0.5 hours**
 
 # Sept 30 :
 
@@ -780,6 +780,14 @@ okk done i js saw a cool ref and tried tht now my readme is fine too , also adju
 done :
 
 ![](assets/image.png)
+
+also added pcb manufecturing portion 
+
+![](assets/fin-pay.png)
+
+this one looks cheap because the coupon is there 
+
+uf fixed the boms too 
 
 rest is upto reviewer !!
 
