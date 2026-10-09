@@ -17,6 +17,15 @@ from when i saw the pluto x  , a programable drone with esp 12f and stm32 , i al
 
 ### 3D Model
 
+> **Notice: All the screws there are 3mm .** 
+
+The recommended range by me is M5x3 mm 
+
+heres a photo tagged:
+![](assets/scrw.png) 
+
+but for the pcb M1.2x3 mm is totally usable 
+
 #### Drone
 
 You can download the 3d model frm here :
@@ -55,10 +64,11 @@ Some phots of the remote :
 
 <table>
   <tr>
-    <td><img src="assets/rrmt.png" width="500" alt="top"></td>
-    <td><img src="assets/caddd.png" width="500" alt="case open"></td>
+    <td><img src="assets/screw-lid.png" width="500" alt="top"></td>
+    <td><img src="assets/screw-body.png" width="500" alt="case open"></td>
   </tr>
 </table>
+
 
 ---
 

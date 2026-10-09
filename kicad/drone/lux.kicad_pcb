@@ -6460,6 +6460,17 @@
 			(uuid "f2d089a4-0371-42b0-ae14-07df59962a91")
 		)
 		(embedded_fonts no)
+		(model "/home/erox/luxion/ESP32-S3-WROOM.step"
+			(offset
+				(xyz 0 3 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_1206_3216Metric"
 		(layer "F.Cu")

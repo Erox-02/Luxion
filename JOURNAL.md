@@ -792,3 +792,30 @@ uf fixed the boms too
 rest is upto reviewer !!
 
 **Total time spent: 1 hours**
+
+# Oct 9 :
+
+the reviewer indeed took a lot of time but now ik the final flaws once its fixed , its fixed
+
+added screws to connect the body and the lid 
+
+![](assets/screw-lid.png)
+---
+![](assets/screw-body.png)
+
+now after it i added 3d model to the pcb for esp and now gonna make pin diagrams as the reviewer said i need tht too ,
+i think imma gonna use inkscape .
+
+its too odd i am not used to this thing , the time has come , my fault for getting involved with generic things while i  am the krita guy .
+
+hell naw its too hard even on krita , maybe i shld use a auto backgroud remover tool 
+
+fck off , why making a diagram so hard , i didnt lapse it or it wd be nearly more than 2 hrs js to make a diagram , okk done finally now i can push 
+
+![](assets/diagram.jpeg)
+
+looks good enough right ? 
+
+ok done anyways , i used gpt at first to diffuse the diagram atleas 10 times but  it made tht even worse at last i went neuclear and made the whole thing myself now rest is js to organise the readme a bit and done hell yeah
+
+**Total time spent: 2.5 hours**
