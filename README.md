@@ -165,6 +165,11 @@ Solder all the components from bom(except the antenna) on the pcb ,
 also You might need to solder a jst socket according to your battery
 (more detailed explanation after i do it myself first lol)
 
+you can follow this hand drawn diagram(even orphy is better than me)
+---
+![diagram](assets/diagram.jpeg)
+---
+
 ## Credits
 
 This project uses:
