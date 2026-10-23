@@ -170,6 +170,8 @@ you can follow this hand drawn diagram(even orphy is better than me)
 ![diagram](assets/diagram.jpeg)
 ---
 
+another thing to consider, this photo doesnt have all the components placed so this isnt the final pcb(checkt he comps on bom ) , and for the mpu6050 and the bmp , they are supposed to be placed horizontal to the pcb , mpu on the esp farday cage(tested by max imagination, he is a cool dude btw , i saw his Arduino drone on YouTube) and the bmp shld be stacked on top of mpu , it shld give them the least vibration err , still idea but i will be sure after i build it myself lol.
+
 ## Credits
 
 This project uses:
