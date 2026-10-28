@@ -37,7 +37,7 @@ Finally done the caps arc Imma gonna die if i sill continue .
 
 At firsted i started off with the usb connection , it might have looked finished but the old connection wd have caused the esp to struck in bootloader always so i did a easy trick diode between io0 and gnd done .
 
-![diode](assets/diode.pngdiode.png)
+![diode](assets/diode.png)
 
 Next the battery the one in my cart is a bonka 600mah 25c 1s lipo , and it have jst output but i cant get the exact size of the connecter , so i am just gonna leave the pcb with a conn_01x02 for the battery lol .
 
