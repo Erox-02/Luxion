@@ -433,8 +433,7 @@ ohhhh i found gold take a look :
 
 oh i can do it to make my esp do the work already why worry ? 
 
-wait even better ESP-M1 ESP8285 found a esp8266 and it is far cheaper imma gonna use it . wait its out of stock lol , maybe i shld go ahead and use my esp32-s3 as planned at first lol .  i checked Espressif ESP32-S3-MINI-1U-N8 Module but 
-![esp](image.png)
+wait even better ESP-M1 ESP8285 found a esp8266 and it is far cheaper imma gonna use it . wait its out of stock lol , maybe i shld go ahead and use my esp32-s3 as planned at first lol .  i checked Espressif ESP32-S3-MINI-1U-N8 Module but
 it has lower sensivity so only option original route ahhhh i just wasted 5 hrs to save a few hundred rs and failed lol .
 
 ![lol](assets/rmote.png)
