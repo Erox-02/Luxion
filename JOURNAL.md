@@ -12,7 +12,7 @@ Today i started the first part of lux , i simply designed the initial base(i mea
 So to be frank it took me hours to make the decisions for the h bridge driver , the buck converter and both of them not out of stock everywhere
 , i chose bl5612 for the h bridge driver , looks good enough but for the buck , i chosed ams1117 first then came to know its really inefficient and a 1s battery cant reliably suppy for it ,so i went to TPS63020DSJR  but soon i came to realize why it wasnt a good choice for me . THe wiring of it is really complex thts all still i somehow did it , now the next for tomorrow , i need to make the rails for ttl and start the pcb maybe? Also today i connected the mpu6500 ,it might look in complete but i intend to solder the breakout directly on my pcb(ah cant find bare cheaper than the breakout) so only 4 pins(gnd vcc scl and sda) are good enough no need for more hassle .
 
-**Total time spent: 4 hours**
+**Total time spent: 3 hours**
 
 # Sept 5 : 
 
@@ -31,7 +31,7 @@ Finally done the caps arc Imma gonna die if i sill continue .
 
 ![schematic](assets/sch_v2.png)
 
-**Total time spent: 6 hours**
+**Total time spent: 4 hours**
 
 # Sept 6 : Footprint + pcb 
 
@@ -86,7 +86,7 @@ Finally done i am crying , wait i didnt run drc .
 ![pcb](assets/pcb_v5.png)
 
 
-**Total time spent: 8 hours**
+**Total time spent: 6 hours**
 
 # Sept 6 ptb :  Pcb polishing
 
@@ -163,7 +163,7 @@ ok fixed tht and main.rs architecture side done too now i will push and let deep
 
 ok added firmware to readme done .
 
-**Total time spent: 6 hours**
+**Total time spent: 5 hours**
 
 # Sept 10 : Starting with the remote 
 
@@ -188,7 +188,7 @@ nah i am out i will just make a pcb for it too or buy a diff iron , its too hard
 
 ![it sucks](assets/wireout.jpeg)
 
-**Total time spent: 5 hours**
+**Total time spent: 4.5 hours**
 
 # Sept 11 : Remote's pcb
 
@@ -230,7 +230,7 @@ also now i tested it in jlcpcb take a look
 
 but theres a huge problem , the mpu6500 is out of stock same goes for mpy9250 so now i need to switch to mpu6050 , hell naw i will need to change my gerber , code and a lot of more things ahhh it sucks .Ok i found a alt in robu but it costs likely 8$ while the old one was barely 1.5$ nah not gonna waste this much money instead i will use a mpu6050 and redesign . ok so thts the task for tomorrow lemme upgrade the bom for now
 
-**Total time spent: 6 hours**
+**Total time spent: 4.5 hours**
 
 
 # Sept 12 : Restart
@@ -295,7 +295,7 @@ ok i fixed tht now lets dive into pcb wait maybe i shld save tht for tomorrow i 
 
 ![fixeddd](assets/fix.png)
 
-**Total time spent: 8 hours**
+**Total time spent: 6 hours**
 
 # Sept 13 : Starin the pcb
 
@@ -362,7 +362,7 @@ this time i made via's a lot more fat for more power draw . also connectd other 
 then i did the usb part , i used really small 0.1mm traces as d+ and d- doesnt carry much power, after tht i wired the tps to inductor , and more tht i forgot check the photo for it.
 
 
-**Total time spent: 8 hours**
+**Total time spent: 6 hours**
 
 # Sept 14 : Finishing the pcb
 
@@ -411,7 +411,7 @@ fixed it uh now atleast it costs less than the comps .
 
 ok now i need to do the remote .
 
-**Total time spent: 5.5 hours**
+**Total time spent: 5 hours**
 
 # Sept 15 : Remote schematics
 
@@ -440,7 +440,7 @@ it has lower sensivity so only option original route ahhhh i just wasted 5 hrs t
 
 ok thts enough i gotta sleep now or gonna die.
 
-**Total time spent: 7 hours**
+**Total time spent: 5.5 hours**
 
 # Sept 16 :  
 
@@ -480,7 +480,7 @@ this is the 3d, but i tried turning rt on , and lol my i5 1135g7 on zen 7.2.3 , 
 
 i will do the drones pcb and remotes cad tomorrow matane
 
-**Total time spent: 7 hours**
+**Total time spent: 4.5 hours**
 
 # Sept 17 : cad for remote
 
