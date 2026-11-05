@@ -817,4 +817,16 @@ looks good enough right ?
 
 ok done anyways , i used gpt at first to diffuse the diagram atleas 10 times but  it made tht even worse at last i went neuclear and made the whole thing myself now rest is js to organise the readme a bit and done hell yeah
 
-**Total time spent: 2.5 hours**
+**Total time spent: 1.5 hours**
+
+# Nov 5
+
+today the reviewer asked me to make a step file for the frame and assemble all , i did so but i also polished the remote body a bit , by adding fillet , it makes the remote look premium
+
+![](assets/fillet.png)
+
+![](assets/side-fillet.png)
+
+![](assets/back-fillet.png)
+
+**Total time spent: 1 hours**
